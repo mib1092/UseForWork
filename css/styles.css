@@ -291,24 +291,77 @@ img                            { vertical-align: top;  }
 	border: 1px solid #eaedf0;
 }
 
-.templates-list > li img{
+.templates-list .template-thumb{
+	position: relative;
+	padding-top: 72.5%;
+	overflow: hidden;
+
+	-webkit-background-size: cover;
+	background-size: cover;
+
+	background-repeat: no-repeat;
+}
+
+.templates-list .template-thumb a{
 	position: absolute;
 	top: 0;
 	left: 0;
+	bottom: 0;
+	right: 0;
+	display: block;
+}
+
+.templates-list > li img{
+	position: relative;
 	display: block;
 	width: 100%;
 	height: auto;
-}
-
-.templates-list > li figure{
-	position: relative;
-	padding-top: 72%;
-	overflow: hidden;
+	opacity: 0;
 }
 
 .templates-list > li > section{
+	display: table;
 	padding: 25px 15px 15px;
 }
+
+.templates-list .info{
+	position: relative;
+	display: table-cell;
+	width: 70px;
+	text-align: right;
+}
+
+.info .counter{
+	font:700 16px arial;
+}
+
+.info .counter-label{
+	font: 9px Arial;
+}
+
+.like-btn{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	border: none;
+	background-color: transparent;
+	font-size: 26px;
+    line-height: 20px;
+}
+
+.templates-list .description{
+	 display: table-cell;
+}
+
+.templates-list h3{
+	margin: 0 0 8px;
+}
+
+.templates-list .cat-name{
+	font: 11px arial;
+	text-transform: uppercase;
+}
+
 
 .templates-list + footer{
 	text-align: center;

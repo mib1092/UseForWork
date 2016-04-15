@@ -58,6 +58,15 @@ img                            { vertical-align: top;  }
 	margin: 0 auto;
 }
 
+.extend-container{
+	position: relative;
+	display: table;
+	max-width: 1600px;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
 .btn{
 	position: relative;
 	display: inline-block;
@@ -116,6 +125,11 @@ img                            { vertical-align: top;  }
    font: 18px Lato;
    opacity: 1;
    color: #3e4855;
+}
+
+.bg-blue{
+	background-color: #31a3f2 !important; 
+	color: #fff;
 }
 /*-------------------------------------HEADER---------------------------------------*/
 .header{
@@ -579,6 +593,12 @@ img                            { vertical-align: top;  }
 
 
 /*PAGE - SALES*/
+
+.page-sales p{
+	font:300 24px 'open sans';
+	margin: 0 0 35px;
+}
+
 .page-sales .banner{
 	background: url(../img/sales-bg.jpg) center center;
 
@@ -599,10 +619,179 @@ img                            { vertical-align: top;  }
 	background: #2b9ae8;
 }
 
+.page h2{
+	font: 900 48px Lato;
+	text-transform: uppercase;
+}
+
+h2.large{
+	font-size: 60px;
+}
+
+.presentation-section {
+	padding: 50px 0 70px;
+}
+
+.presentation-section .container{
+	display: table;
+}
+
+.presentation-section .img-wrap{
+	width: 510px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: right;
+}
+
+.presentation-section .img-wrap img{
+	display: inline-block;
+	height: auto;
+	max-width: 100%;
+}
+
+.presentation-section  .text-section{
+	display: table-cell;
+	padding-right: 30px;
+}
+
+.presentation-section header{
+	margin: 0 0 70px;
+}
 
 
-.for-you-section{
-	padding: 110px 0 100px;
+/*package-included*/
+
+.content .package-included{
+	padding: 70px 0 65px;
+	margin: 0;
+	text-align: center;
+}
+
+.package-included header{
+	margin: 0 0 75px;
+}
+
+.package-included h2+p{
+	font: 30px Lato;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.package-included ul{
+	overflow: hidden;
+	text-align: left;
+}
+
+.package-included li{
+	font:300 24px 'open sans';
+	width: 45%;
+	float: left;
+	padding: 0 0 0 80px;
+	background: url(../img/marker-in.png) no-repeat top 7px left;
+	min-height: 60px;
+	margin: 0 0 70px;
+}
+
+.package-included li:nth-child(odd){
+	margin-right: 5%;
+}
+
+.package-included li:nth-child(even){
+	margin-left:5%;
+}
+
+.package-included li strong{
+	font: 28px 'open sans';
+}
+
+
+/*author section*/
+
+.author-section{
 	background: #0070bd;
 	color: #fff;
+}
+
+.author-section .author-thumb{
+	display: table-cell;
+	width: 510px;
+}
+
+.author-section h2{
+	margin: 0 0 35px;
+}
+
+.author-section section{
+	display: table-cell;
+	vertical-align: middle;
+	padding:40px 0 0 80px;
+}
+
+.author-section section p {
+	margin: 0 0 40px; 
+}
+
+
+/*TESTIMONIALS*/
+
+.testimonials{
+	padding: 55px 0;
+}
+
+.testimonials header{
+	text-align: center;
+}
+
+
+
+
+/*take-mater-section*/
+
+.content .take-mater-section{
+	margin: 0;
+}
+
+.take-mater-section .container{
+	padding: 90px 20% 45px 15px;
+	background: url(../img/arrow-bg.png) no-repeat right 20px center;
+}
+
+.take-mater-section header{
+	width: 65%;	
+	margin: 0 0 60px;
+}
+
+
+
+/*BUY-AND-GET*/
+.buy-and-get{
+	padding: 50px 0 45px;
+	background: #f9f9f9;
+	margin: 0;
+}
+
+.buy-and-get header{
+	max-width: 60%;
+	margin: 0 auto 32px;
+	text-align: center;
+}
+
+
+
+/*FOR-YOU-SECTION*/
+.for-you-section{
+	background: #0070bd;
+	color: #fff;
+}
+
+.for-you-section .container{
+	padding: 110px 20% 100px 15px;
+	background: url(../img/garant.png) no-repeat right top;
+
+	-webkit-background-size: auto 100%;
+	background-size: auto 100%;
+}
+
+.for-you-section h2{
+	margin: 0 0 30px;
 }

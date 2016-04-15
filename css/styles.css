@@ -123,7 +123,7 @@ img                            { vertical-align: top;  }
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 117px;
+	height: 114px;
 }
 
 .header .container{
@@ -191,17 +191,17 @@ img                            { vertical-align: top;  }
 	table-layout: fixed;
 }
 
-.banner-text{
+.home .banner-text{
 	width: 580px;
 }
 
-.banner-text,
-.banner .img-wrap{
+.home .banner-text,
+.home .banner .img-wrap{
 	display: table-cell;
 	vertical-align: middle;
 }
 
-.banner .img-wrap img{
+.home .banner .img-wrap img{
 	display: inline-block;
 	max-width: 100%;
 	height: auto;
@@ -217,6 +217,10 @@ img                            { vertical-align: top;  }
 	font-size: 28px;
 	color: #fff;
 	margin: 0 0 50px;
+}
+
+.home .banner h1{
+	margin: 0;
 }
 
 .banner .btns-list li{
@@ -360,7 +364,6 @@ img                            { vertical-align: top;  }
 	font: 11px arial;
 	text-transform: uppercase;
 }
-
 
 .templates-list + footer{
 	text-align: center;
@@ -527,6 +530,7 @@ img                            { vertical-align: top;  }
 	text-align: center;
 	padding: 26px 30px;
 	font-size: 18px;
+    margin: 0 0 17px;
 }
 
 /*-------------------------------------FOOTER---------------------------------------*/
@@ -544,8 +548,8 @@ img                            { vertical-align: top;  }
 }
 
 .foot-logo{
-	width: 69px;
-	height: 67px;
+	width: 82px;
+	height: 82px;
 	overflow: hidden;
 }
 
@@ -569,4 +573,36 @@ img                            { vertical-align: top;  }
 
 .copy-bar .copy:last-child{
 	text-align: right;
+}
+
+
+
+
+/*PAGE - SALES*/
+.page-sales .banner{
+	background: url(../img/sales-bg.jpg) center center;
+
+	-webkit-background-size: cover;
+	background-size: cover;
+	text-align: center;
+
+	height: 560px;
+	margin: 0 0 58px;
+}
+
+.banner h1{
+	margin: 0 0 55px;
+}
+
+.page .header{
+	position: relative;
+	background: #2b9ae8;
+}
+
+
+
+.for-you-section{
+	padding: 110px 0 100px;
+	background: #0070bd;
+	color: #fff;
 }

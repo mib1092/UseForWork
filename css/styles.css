@@ -651,12 +651,12 @@ img                            { vertical-align: top;  }
 
 /*PAGE - SALES*/
 
-.page-sales p{
+.page-template-page-sales p{
 	font:300 24px 'open sans';
 	margin: 0 0 35px;
 }
 
-.page-sales .banner{
+.page-template-page-sales .banner{
 	background: url(../img/sales-bg.jpg) center center;
 
 	-webkit-background-size: cover;

@@ -132,7 +132,8 @@ img                            { vertical-align: top;  }
 	color: #fff;
 }
 /*-------------------------------------HEADER---------------------------------------*/
-.header{
+.header,
+.home.page .header{
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -144,6 +145,7 @@ img                            { vertical-align: top;  }
 	padding-top: 20px;
 	padding-bottom: 14px;
 	overflow: hidden;
+	border-top: 1px solid #5ab5f5;
 }
 
 .logo{
@@ -207,7 +209,6 @@ img                            { vertical-align: top;  }
 }
 
 .banner .container{
-	border-top: 1px solid #5ab5f5;
 	display: table;
 	height: 100%;
 	table-layout: fixed;
@@ -636,10 +637,13 @@ img                            { vertical-align: top;  }
 .foot-nav a{
 	font:900 16px Lato;
 }
+
 .copy-bar .copy{
+	font-size: 10px;
 	display: inline-block;
 	width: 50%;
 	margin-right: -5px;
+	margin-bottom: 0;
 }
 
 .copy-bar .copy:last-child{
@@ -683,6 +687,10 @@ img                            { vertical-align: top;  }
 
 h2.large{
 	font-size: 60px;
+}
+
+.page strong{
+	font-weight: 600;
 }
 
 .presentation-section {
@@ -821,16 +829,153 @@ h2.large{
 
 
 /*BUY-AND-GET*/
-.buy-and-get{
-	padding: 50px 0 45px;
+.content .exclusive-offer,
+.content .buy-and-get{
 	background: #f9f9f9;
 	margin: 0;
 }
 
+.buy-and-get{
+	padding: 50px 0 45px;
+}
+
 .buy-and-get header{
-	max-width: 60%;
+	max-width: 62%;
 	margin: 0 auto 32px;
 	text-align: center;
+}
+
+.buy-and-get header h2 span{
+	font-weight: 900;
+	color: #31a3f2;
+}
+
+.buy-and-get .box{
+	display: table;
+	background: #fff;
+	border: 1px solid #eeeff1;
+	border-bottom: 2px solid #eeeff1;
+	padding: 45px 30px 45px 60px;
+	font:600 24px 'open sans';
+}
+
+.buy-and-get .box h3{
+	font-size: inherit;	
+	margin: 0 0 27px;
+	font-weight: 600;
+}
+
+.buy-and-get .advantages li{
+	padding-left: 60px;
+	background: url(../img/check.png) no-repeat left top 10px;
+	margin: 0 0 27px;
+}
+
+.buy-and-get .advantages li strong{
+	font-weight: 600;
+}
+
+.buy-and-get .img-wrap,
+.buy-and-get .text-wrap{
+	display: table-cell;
+}
+
+.buy-and-get .img-wrap{
+	vertical-align: middle;
+	padding-right: 70px;
+}
+
+.buy-and-get .img-wrap img{
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+}
+
+/*EXCLUSIVE OFFER*/
+
+.exclusive-offer{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.exclusive-offer header{
+	margin: 0 0 30px;
+}
+
+.exclusive-offer h2{
+	font-weight: 400;
+}
+
+.exclusive-offer .old-price{
+	display: inline-block;
+	position: relative;
+}
+
+.exclusive-offer .old-price:after{
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 0;
+	margin: -2px 0 0;
+	width: 100%;
+	height: 4px;
+	background: #ff0000;
+	text-transform: none;
+}
+
+
+.exclusive-offer .btn-orange{
+	display: inline-block;
+	padding: 15px 0 13px;
+	width: 502px;
+	background: #ffa600;
+	border: 1px solid #f19700;
+	font-size: 26px;
+	color:#fff;
+
+	border-radius: 6px;
+	text-shadow:2px 2px #f19700;
+	margin: 0 0 24px;
+}
+
+.exclusive-offer .payment-method{
+	margin: 0 0 40px;
+}
+
+.exclusive-offer .payment-method li{
+	display: inline-block;
+	margin: 0 13px; 
+}
+
+.exclusive-offer .payment-method a{
+	display: inline-block;
+	vertical-align: middle;
+	background-image: url(../img/payment.png);
+}
+
+.exclusive-offer .payment-method .visa{
+	background-position: 0 -5px;
+	width: 74px;
+	height: 24px;
+}
+
+.exclusive-offer .payment-method .master-card{
+	background-position: -90px 0;
+	width: 60px;
+	height: 36px;
+}
+
+.exclusive-offer .payment-method .amex{
+	background-position:  -167px 0;
+	width: 57px;
+	height: 34px;
+}
+
+.exclusive-offer .payment-method .pay-pal{
+	background-position: -241px -1px;
+	width: 117px;
+	height: 31px;
 }
 
 

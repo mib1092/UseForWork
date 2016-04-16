@@ -50,9 +50,6 @@
 	.blog-block .text-block .ghost-btn{
 		font-size: 10px;
 	}
-
- 
-
 }
 
 @media all and (min-width: 1440px) and (max-width: 1580px){
@@ -197,6 +194,10 @@
     .blog-block .text-block h3{
     	font-size: 22px;
     }
+
+    .subscribe-section h2{
+ 		font-size: 40px;
+ 	}
 }
 
 @media (max-width: 1280px){

@@ -805,7 +805,109 @@ h2.large{
 
 .testimonials header{
 	text-align: center;
+	margin: 0 0 70px;
 }
+
+.testimonial-slider .item{
+	display: table;
+	width: 100%;
+	height: auto;
+	padding-right: 20%;
+}
+
+.testimonial-slider .author{
+	display: table-cell;
+	text-align: right;
+	vertical-align: bottom;
+	padding-right: 60px;
+	padding-top: 115px;
+	width: 330px;
+	background: url(../img/quote1.png) no-repeat right 60px top ;
+	color: #394351;
+}
+
+.testimonial-slider .author h3{
+	font:600 28px 'open sans';
+	margin: 0 0 23px;
+}
+
+.testimonial-slider .quote{
+	position: relative;
+	display: table-cell;
+	padding: 40px 60px 35px 50px;
+	border: 1px solid #e0ebf4;
+}
+
+.testimonial-slider .quote:after{
+	content: '';
+	position: absolute;
+	display: inline-block;
+	bottom: 0;
+	right: -58px;
+	width: 136px;
+	height: 97px;
+	background: url(../img/quote.png) no-repeat;
+
+	-webkit-transform: translateX(100%);
+	-ms-transform: translateX(100%);
+	-o-transform: translateX(100%);
+	transform: translateX(100%);
+}
+
+.testimonial-slider .quote:before{
+	content: '';
+	position: absolute;
+	display: inline-block;
+	top: 0;
+	left: -44px;
+	border-style: solid;
+	border-width: 0 46px 74px 0;
+	border-color: transparent #ffffff transparent transparent;
+}
+
+.owl-pagination{
+	display: none;
+}
+
+.owl-theme .owl-controls {
+    margin-top: 0;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+.testimonial .quote p{
+	font-size: 28px;
+}
+
+.owl-carousel .owl-wrapper{
+	-webkit-transition: .7s !important;
+	-o-transition: .7s !important;
+	transition: .7s !important;
+}
+
+.owl-buttons div{
+	float: left;
+	display: block;
+	width: 85px;
+	height: 85px;
+	border: 1px solid #e0ebf4;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #fff;
+	text-indent: 9999px;
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-prev{
+	background-image: url(../img/arr-left.png);
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-next{
+	background-image: url(../img/arr-right.png);
+}
+
 
 
 

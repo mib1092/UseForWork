@@ -782,6 +782,19 @@ h2.large{
 	width: 510px;
 }
 
+.author-section .author-thumb {
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.author-section .author-thumb img{
+	display: inline-block;
+	height: auto;
+	max-width: 100%;
+	opacity: 0;
+}
+
 .author-section h2{
 	margin: 0 0 35px;
 }

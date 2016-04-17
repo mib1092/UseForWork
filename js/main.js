@@ -23,4 +23,11 @@ $(document).ready(function() {
       navigation: true  
   });
 
+  $('.similar-posts .templates-list').owlCarousel({
+      loop: true,
+      items:3,
+      navigation: true  ,
+      navContainer: '.similar-posts .slider'
+  });
+
 });

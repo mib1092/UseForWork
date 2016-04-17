@@ -67,6 +67,14 @@ img                            { vertical-align: top;  }
 	overflow: hidden;
 }
 
+img {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
 .btn{
 	position: relative;
 	display: inline-block;
@@ -145,7 +153,7 @@ img                            { vertical-align: top;  }
 	padding-top: 20px;
 	padding-bottom: 14px;
 	overflow: hidden;
-	border-top: 1px solid #5ab5f5;
+    border-bottom: 1px solid #5ab5f5;
 }
 
 .logo{
@@ -333,10 +341,10 @@ img                            { vertical-align: top;  }
 }
 
 .home h2 + .view-more:hover:after{
-	-webkit-transform: scaleX(.4);
-	-ms-transform: scaleX(.4);
-	-o-transform: scaleX(.4);
-	transform: scaleX(.4);
+	-webkit-transform: scaleX(0);
+	-ms-transform: scaleX(0);
+	-o-transform: scaleX(0);
+	transform: scaleX(0);
 }
 
 .templates-list{
@@ -347,7 +355,7 @@ img                            { vertical-align: top;  }
 .templates-list > li{
 	display:inline-table;
 	width: calc(33.33% - 32px);
-	margin: 0 0 15px 30px;
+	margin: 0 0 20px 30px;
 	border: 1px solid #eaedf0;
     vertical-align: top;
     -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,0.1);

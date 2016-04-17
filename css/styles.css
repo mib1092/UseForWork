@@ -831,6 +831,10 @@ h2.large{
 	margin: 0 0 23px;
 }
 
+.testimonial-slider .author h3 + p{
+	font: 400 28px 'open sans';
+}
+
 .testimonial-slider .quote{
 	position: relative;
 	display: table-cell;

@@ -12,6 +12,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 		<!--styles-->
+		<link rel="stylesheet" href="css/cs-select.css">
 
 		<link rel="stylesheet" href="css/styles.css">
 		<link rel="stylesheet" href="css/media.css">
@@ -85,13 +86,10 @@
 								<h2>Most Popular Templates</h2>
 								<div class="filter-wrap">
 									<span class="label">Sort by:</span>
-									<select name="" id="" class="filter">
-										<option value="">1</option>
-										<option value="">2</option>
-										<option value="">1</option>
-										<option value="">2</option>
-										<option value="">1</option>
-										<option value="">2</option>
+									<select  class="cs-select cs-skin-border" name="" id="" class="filter">
+										<option value="Popularity">Popularity</option>
+										<option value="Price">Price</option>
+										<option value="Date">Date</option>
 									</select>
 								</div><!--/filter-wrap-->
 							</header>
@@ -255,7 +253,7 @@
 										<a href="#" class="btn">LEARN how you can propel your career</a>
 									</section>
 									<figure class="img-wrap bg-cover" style="background-image: url(img/man.jpg)">
-										<img src="img.man.jpg" alt="">
+										<img src="img/man.jpg" alt="">
 									</figure>
 								</li>
 							</ul>
@@ -314,6 +312,15 @@
 <!--Scripts-->
 		<script src="js/jquery-1.11.3.min.js"></script>
 		<script src="js/scroll.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/selectFx.js"></script>
+		<script>
+			(function() {
+				[].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {	
+					new SelectFx(el);
+				} );
+			})();
+		</script>
 	
 		<script src="js/main.js"></script>
 

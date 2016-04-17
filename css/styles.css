@@ -697,6 +697,10 @@ img {
 	margin: 0 0 55px;
 }
 
+.page .header .container{
+	border: none;
+}
+
 .page .header{
 	position: relative;
     background: #31a3f2;
@@ -969,6 +973,7 @@ h2.large{
 
 .take-mater-section .img-wrap{
 	display: table-cell;
+	text-align: center;
 	vertical-align: middle;
 	width: 360px;
 }
@@ -1243,6 +1248,8 @@ h2.large{
 	padding: 24px 60px 22px;
 }
 
+/*SIDEBAR*/
+
 .page-sidebar{
 	width: 260px;
 	float: right;
@@ -1291,8 +1298,13 @@ h2.large{
 	padding-bottom: 0;	
 }
 
+.templates-list .info-block p{
+	margin: 0 0 42px;
+}
+
 .templates-list .info-block .text-wrap{
 	display: table-cell;
+	vertical-align: middle;
 	padding: 50px 130px 50px 75px;
 }
 
@@ -1366,4 +1378,57 @@ h2.large{
 .wp-pagenavi .previouspostslink:hover{
 	border-color: transparent;
 	color:#707781;
+}
+
+
+/*filter select*/
+
+div.cs-skin-border {
+	background: transparent;
+	font-size: 2em;
+	font-weight: 700;
+	max-width: 600px;
+}
+
+@media screen and (max-width: 30em) {
+	div.cs-skin-border { font-size: 1em; }
+}
+
+ 
+.cs-skin-border ul span::after {
+	content: '';
+	opacity: 0;
+}
+
+.cs-skin-border.cs-active > span {
+	background: #fff;
+	border-color: #fff;
+	color: #2980b9;
+}
+
+.cs-skin-border .cs-options {
+	color: #2980b9;
+	font-size: 0.75em;
+	opacity: 0;
+	-webkit-transition: opacity 0.2s, visibility 0s 0.2s;
+	transition: opacity 0.2s, visibility 0s 0.2s;
+}
+
+.cs-skin-border.cs-active .cs-options {
+	opacity: 1;
+	-webkit-transition: opacity 0.2s;
+	transition: opacity 0.2s;
+}
+
+.cs-skin-border ul span {
+	font: 16px Lato;
+	color: #394351;
+	padding: 5px 10px 3px 10px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.cs-skin-border .cs-options li span:hover,
+.cs-skin-border li.cs-focus span {
+	background: #f5f3ec;
 }

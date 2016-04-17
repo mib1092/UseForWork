@@ -855,14 +855,15 @@ h2.large{
 }
 
 .testimonial-slider .quote:before{
-	content: '';
-	position: absolute;
-	display: inline-block;
-	top: 0;
-	left: -44px;
-	border-style: solid;
-	border-width: 0 46px 74px 0;
-	border-color: transparent #ffffff transparent transparent;
+	content: '◥';
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: -48px;
+    font-size: 100px;
+    line-height: 41px;
+    color: #fff;
+    text-shadow: -3px -1px 1px #e0ebf4;
 }
 
 .owl-pagination{

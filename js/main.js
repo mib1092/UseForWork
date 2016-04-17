@@ -20,7 +20,7 @@ $(document).ready(function() {
   $('.testimonial-slider').owlCarousel({
       loop: true,
       items:1,
-      navigation: true 
+      navigation: true ,animateOut: 'fadeOut'
   });
 
 });

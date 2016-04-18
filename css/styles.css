@@ -197,20 +197,22 @@ img {
 
 .main-nav a{
     text-transform: uppercase;
-    font:300 16px lato;
+    font:400 16px lato;
     color:#fff;
     -webkit-transition: .34s;
     -o-transition: .34s;
     transition: .34s;
+    padding: 2px 13px;
 }
 
+.main-nav .current-menu-item a,
 .main-nav a:hover{
-	color: #ffea00;
+	background: #fff;
+	color: #3b3f4b;
 }
 
 .main-nav li {
   	display: inline-block;
-  	margin-left: 26px;
 }
 
 /*-------------------------------------CONTENT--------------------------------------*/
@@ -1521,6 +1523,14 @@ h2.large{
 	background: url(../img/similar.png) left center no-repeat;
 }
 
+.single-post .similar-posts h4{
+	margin: 0 0 10px;
+}
+
+.single-post .similar-posts h4 a{
+	line-height: 1.25;
+}
+
 .single-post .similar-posts .slider ul{
 	padding: 0 40px;
 }
@@ -1534,6 +1544,8 @@ h2.large{
 	-ms-transform: translateZ(0);
 	-o-transform: translateZ(0);
 	transform: translateZ(0);
+
+	border: 1px solid #eaedf0;
 }
 
 .similar-posts .slider .slick-arrow{

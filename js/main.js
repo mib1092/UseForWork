@@ -41,7 +41,7 @@ $(document).ready(function() {
   });
 
   $('.slider-nav').slick({
-    slidesToShow: 7,
+    slidesToShow: 5,
     slidesToScroll: 3,
     arrows: false,
     infinite: false,

@@ -1514,7 +1514,7 @@ h2.large{
 	padding-top: 33px;
 }
 
-.single .similar-posts h2{
+.single .similar-posts h3{
 	font: 35px Lato;
 	color: #394351;
 	margin: 0 0 46px;
@@ -1572,6 +1572,16 @@ h2.large{
 	float: right;
 	width: 500px;
 	padding-left: 40px;
+}
+
+.single .template-description h2{
+	font:900 16px Lato;
+}
+
+.single .template-description .btn{
+	width: 100%;
+	font:900 24px Lato;
+	text-align: center;
 }
 
 .single .gallery{

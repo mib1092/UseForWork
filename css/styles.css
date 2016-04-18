@@ -1470,33 +1470,33 @@ h2.large{
 
 /*SINGLE*/
 
-.single .header{
+.single-post .header{
 	position: relative;
 	background: #31a3f2;
 	margin: 0 0 15px;
 }
 
-.single .header .container{
+.single-post .header .container{
 	border: none;
 }
 
-.single .template-description{
+.single-post .template-description{
 	font: 18px Arial;
 	width: 460px;
 	color: #394351;
 }
 
-.single .template-description h1{
+.single-post .template-description h1{
 	font: 25px Lato;
 	text-transform: uppercase;
 }
 
-.single .template-description header{
+.single-post .template-description header{
 	margin: 0 0 35px;
 }
 
 
-.single .template-description p {
+.single-post .template-description p {
 	margin: 0 0 40px;
 	line-height: 1.5;
 }
@@ -1504,17 +1504,17 @@ h2.large{
 
 /*SIMILAR POSTS - SECTION*/
 
-.single .similar-posts{
+.single-post .similar-posts{
 	display: block;
 	margin-bottom: 70px;
 }
 
-.single .similar-posts header{
+.single-post .similar-posts header{
 	border-top: 1px solid #e0ebf4;
 	padding-top: 33px;
 }
 
-.single .similar-posts h3{
+.single-post .similar-posts h3{
 	font: 35px Lato;
 	color: #394351;
 	margin: 0 0 46px;
@@ -1522,11 +1522,11 @@ h2.large{
 	background: url(../img/similar.png) left center no-repeat;
 }
 
-.single .similar-posts .slider ul{
+.single-post .similar-posts .slider ul{
 	padding: 0 60px;
 }
 
-.single .similar-posts .slider li{
+.single-post .similar-posts .slider li{
 	-webkit-transform: translateZ(0);
 	-ms-transform: translateZ(0);
 	-o-transform: translateZ(0);
@@ -1560,7 +1560,7 @@ h2.large{
 	background: url(../img/sim-l.png) center no-repeat;
 }
 
-.single .templates-list li{
+.single-post .templates-list li{
 	margin: 0 40px;
 }
 
@@ -1568,33 +1568,33 @@ h2.large{
 	display: block;
 }
 
-.single .template-description{
+.single-post .template-description{
 	float: right;
 	width: 500px;
 	padding-left: 40px;
 }
 
-.single .template-description h2{
+.single-post .template-description h2{
 	font:900 16px Lato;
 }
 
-.single .template-description .btn{
+.single-post .template-description .btn{
 	width: 100%;
 	font:900 24px Lato;
 	text-align: center;
 }
 
-.single .gallery{
+.single-post .gallery{
 	float: left;
 	width: calc(100% - 500px);	
 }
 
-.single .gallery .slider{
+.single-post .gallery .slider{
 	display: block;
 	overflow: hidden;
 }
 
-.single .gallery img{
+.single-post .gallery img{
 	display: block;
 	width: 100%;
 	height: auto;

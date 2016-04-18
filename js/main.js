@@ -1,4 +1,67 @@
 
+//Create expanding searchbox
+$(document).ready(function(){
+
+    var submitIcon = $('.searchbox-icon'),
+        inputBox = $('.searchbox-input'),
+        searchBox = $('.searchbox'),
+        searchBoxWrap = $('.searchbox-wrap'),
+        bars = $('.burger'),
+
+        isOpen = false;
+        
+    function openSearch(){
+        searchBox.addClass('searchbox-open');
+        searchBoxWrap.addClass('searchbox-open');
+        inputBox.show();
+        isOpen = true;
+    }
+    
+    function closeSearch(){
+        searchBox.removeClass('searchbox-open');
+        searchBoxWrap.removeClass('searchbox-open');
+        isOpen = false;
+    }
+
+    submitIcon.click(function(e){
+        e.preventDefault();
+        if(isOpen == false){
+           openSearch();
+        }else {
+            closeSearch();
+        }
+    });
+
+    bars.click(function(){
+        if(isOpen == true){
+            closeSearch();
+            $('.searchbox-input').val('');
+            $('.searchbox-icon').css('display','block');
+        } 
+    });
+
+
+    submitIcon.mouseup(function(){
+            return false;
+        });
+    searchBox.mouseup(function(){
+            return false;
+        });
+
+});
+
+function buttonUp(){
+    var inputVal = $('.searchbox-input').val();
+    inputVal = $.trim(inputVal).length;
+    if( inputVal !== 0){
+        $('.searchbox-icon').css('display','none');
+    } else {
+        $('.searchbox-input').val('');
+        $('.searchbox-icon').css('display','block');
+    }
+}
+
+
 $(document).ready(function() {
   $('a[href="#"]').click(function (e){
     e.preventDefault();
@@ -50,3 +113,5 @@ $(document).ready(function() {
   });
 
 });
+
+

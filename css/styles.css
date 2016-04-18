@@ -455,6 +455,7 @@ img {
 	width: 70px;
 	text-align: right;
 	vertical-align: top;
+	padding-top: 6px;
 }
 
 .info .counter{
@@ -492,8 +493,6 @@ img {
 	text-align: center;
 	padding-bottom: 20px;
 }
-
-
 
 .info-block{
 	min-height: 480px;
@@ -1523,7 +1522,11 @@ h2.large{
 }
 
 .single-post .similar-posts .slider ul{
-	padding: 0 60px;
+	padding: 0 40px;
+}
+
+.templates-list .template-thumb+section {
+    padding: 15px 20px 15px 15px;
 }
 
 .single-post .similar-posts .slider li{
@@ -1538,6 +1541,10 @@ h2.large{
 	background-color: transparent;
 	height: 25px;
 	width: 15px;
+}
+
+.single-post .templates-list li{
+	width: 33.33%;
 }
 
 .similar-posts .slider .slick-arrow:before{
@@ -1561,7 +1568,7 @@ h2.large{
 }
 
 .single-post .templates-list li{
-	margin: 0 40px;
+	margin: 0 30px;
 }
 
 .main-section .container{
@@ -1570,23 +1577,22 @@ h2.large{
 
 .single-post .template-description{
 	float: right;
-	width: 500px;
-	padding-left: 40px;
+	width: 460px;
+	padding: 30px 30px 38px 34px;
+	background: #f9f9f9;
+	border: 2px solid #e8eaee;
 }
 
 .single-post .template-description h2{
 	font:900 16px Lato;
+	margin: 0 0 15px;
 }
 
-.single-post .template-description .btn{
-	width: 100%;
-	font:900 24px Lato;
-	text-align: center;
-}
 
 .single-post .gallery{
 	float: left;
-	width: calc(100% - 500px);	
+	width: calc(100% - 460px);	
+    padding: 0 35px 0 0;
 }
 
 .single-post .gallery .slider{
@@ -1599,9 +1605,22 @@ h2.large{
 	width: 100%;
 	height: auto;
 }
+ 
+.gallery .slider-nav .slick-slide{
+	position: relative;
+	margin-right: 8px;
+	border: 1px solid #e9e9e9;
+}
 
-.gallery .slider-nav img{
-	padding-right: 18px;
+.gallery .slider-nav .slick-current:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1000;
+	background: rgba(0,0,0, .5) url(../img/up.png) no-repeat center center;
 }
 
 .table{
@@ -1665,4 +1684,91 @@ h2.large{
 
 .info-table .theme:after{
 	background-position: 0 -99px;
+}
+
+.compatible-list{
+	overflow: hidden;
+	margin: 0 0 40px;
+}
+
+.compatible-list li{
+	font: 16px Lato;
+	width: 50%;
+	float: left;
+	padding-right: 15px;
+	margin: 0 0 10px;
+}
+
+.compatible-list .icon{
+	display: inline-block;
+	vertical-align: middle;
+	width: 51px;
+	height: 51px;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	margin-right: 13px;
+}
+
+.keynote{
+	background: url(../img/keynote.jpg);
+}
+
+.powerpoint{
+	background: url(../img/powerpoint.png);
+}
+
+.single-post .template-description .btn{
+	width: 100%;
+	font:900 24px Lato;
+	text-align: center;
+	padding: 20px 0 19px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.single-post .gallery .slick-arrow{
+	width: 85px;
+	height: 85px;
+	border: 1px solid #f8f9f9;
+	bottom: 0;
+	top: auto;
+	z-index: 1000;
+}
+
+.single-post .gallery .slick-arrow:before{
+	content: '';
+}
+
+.single-post .gallery .slick-prev{
+	background: url(../img/gallery-l.png) no-repeat center center;
+	left: 15px;
+}
+
+.single-post .gallery .slick-next{
+	background: url(../img/gallery-r.png) no-repeat center center;
+	right: 35px;
+}
+
+.single-post .gallery .slider:after{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 30%;
+	right: 0;
+
+	background: rgba(115,115,115,0);
+	background: -moz-linear-gradient(top, rgba(115,115,115,0) 0%, rgba(115,115,115,0) 1%, rgba(107,107,107,0.22) 48%, rgba(0,0,0,0.45) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(115,115,115,0)), color-stop(1%, rgba(115,115,115,0)), color-stop(48%, rgba(107,107,107,0.22)), color-stop(100%, rgba(0,0,0,0.45)));
+	background: -webkit-linear-gradient(top, rgba(115,115,115,0) 0%, rgba(115,115,115,0) 1%, rgba(107,107,107,0.22) 48%, rgba(0,0,0,0.45) 100%);
+	background: -o-linear-gradient(top, rgba(115,115,115,0) 0%, rgba(115,115,115,0) 1%, rgba(107,107,107,0.22) 48%, rgba(0,0,0,0.45) 100%);
+	background: -ms-linear-gradient(top, rgba(115,115,115,0) 0%, rgba(115,115,115,0) 1%, rgba(107,107,107,0.22) 48%, rgba(0,0,0,0.45) 100%);
+	background: linear-gradient(to bottom, rgba(115,115,115,0) 0%, rgba(115,115,115,0) 1%, rgba(107,107,107,0.22) 48%, rgba(0,0,0,0.45) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#737373', endColorstr='#000000', GradientType=0 );
+}
+
+.single-post .gallery .slick-disabled{
+	opacity: .2;
+	cursor: default;
 }

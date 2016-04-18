@@ -43,6 +43,7 @@ $(document).ready(function() {
   $('.slider-nav').slick({
     slidesToShow: 7,
     slidesToScroll: 3,
+    arrows: false,
     infinite: false,
     asNavFor: '.gallery .slider',
     focusOnSelect: true

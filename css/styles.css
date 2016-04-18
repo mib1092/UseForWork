@@ -1254,6 +1254,7 @@ h2.large{
 	display: inline-block;
 	vertical-align: middle;
 	font:35px Lato;
+	text-transform: none;
 }
 
 .page-template-page-all_templates .templates header{

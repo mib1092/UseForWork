@@ -414,6 +414,7 @@ img {
 	height: 115px;
 	text-align: center;
 	border: 1px solid #e0ebf4;
+	padding:0 30px 0 50px;
 }
 
 .customers ul li{
@@ -421,10 +422,26 @@ img {
 	vertical-align: middle;
 }
 
+.customers p{
+	font: 16px Lato;
+	color:#394351;
+	text-align: left;
+}
+
+.customers img{
+	display: inline-block;
+	width: auto;
+	height: auto;
+	max-width: 100%;
+}
+
 .home.page h2{
 	font: 28px Lato;
 	display: inline-block;
 	margin: 0 0 35px;
+}
+
+.templates h2{
 	width: 50%;
 }
 
@@ -436,8 +453,6 @@ img {
 	float: right;
 	text-align: right;
 	color: #31a3f2;
-
-
 }
 
 .home h2 + .view-more:after{

@@ -206,6 +206,12 @@ img {
 }
 
 .main-nav .current-menu-item a,
+.main-nav .current_page_item a,
+.main-nav .current-menu-parent a,
+.main-nav .current-menu-ancestor a,
+.main-nav .current-page-ancestor a,
+.single-post .main-nav .menu-item-29 a,
+.category .main-nav .menu-item-29 a,
 .main-nav a:hover{
 	background: #fff;
 	color: #3b3f4b;
@@ -1622,8 +1628,9 @@ h2.large{
  
 .gallery .slider-nav .slick-slide{
 	position: relative;
-	margin-right: 8px;
+    margin-right: 10px;
 	border: 1px solid #e9e9e9;
+    cursor: pointer;
 }
 
 .gallery .slider-nav .slick-current:after{

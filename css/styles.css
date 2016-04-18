@@ -734,7 +734,7 @@ img {
 	margin: 0 0 55px;
 }
 
-.page .header .container{
+.page:not(.page-template-page-all_templates) .header .container{
 	border: none;
 }
 

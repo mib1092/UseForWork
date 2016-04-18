@@ -457,7 +457,7 @@ img {
 	width: 70px;
 	text-align: right;
 	vertical-align: top;
-	padding-top: 6px;
+    padding: 2px 0 22px;
 }
 
 .info .counter{
@@ -475,11 +475,12 @@ img {
 	border: none;
 	background-color: transparent;
 	font-size: 26px;
-    line-height: 20px;
+    line-height: 17px;
 }
 
 .templates-list .description{
 	 display: table-cell;
+	 width: 100%;
 }
 
 .templates-list h3{

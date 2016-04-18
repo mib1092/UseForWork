@@ -162,7 +162,9 @@ img {
     background: transparent;
 }
 
-.header .container{
+
+.page-template-page-all_templates .header .container,
+.home .header .container{
 	padding-top: 20px;
 	padding-bottom: 14px;
 	overflow: hidden;
@@ -740,10 +742,6 @@ img {
 
 .banner h1{
 	margin: 0 0 55px;
-}
-
-.page:not(.page-template-page-all_templates) .header .container{
-	border: none;
 }
 
 .page .header{

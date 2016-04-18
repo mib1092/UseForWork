@@ -151,13 +151,15 @@ img {
 }
 /*-------------------------------------HEADER---------------------------------------*/
 .header,
-.home.page .header{
+.home.page .header,
+.page.page-template-page-all_templates .header{
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 114px;
 	z-index: 100;
+    background: transparent;
 }
 
 .header .container{
@@ -1202,7 +1204,7 @@ h2.large{
 
 /*TEMPLATES PAGE*/
 
-.page-template-inner .banner{
+.page-template-page-all_templates .banner{
 	padding-top: 160px;
 	text-align: center;
 	min-height: 460px;
@@ -1241,13 +1243,13 @@ h2.large{
 	color: #8f9bab;
 }
 
-.page-template-inner .templates h2{
+.page-template-page-all_templates .templates h2{
 	width: 50%;
 	display: inline-block;
 	vertical-align: middle;
 }
 
-.page-template-inner .templates header{
+.page-template-page-all_templates .templates header{
 	margin: 0 0 35px;
 }
 
@@ -1374,11 +1376,15 @@ h2.large{
 	margin: 0 2px;
 }
 
-.wp-pagenavi .current,
-.wp-pagenavi a:hover{
+.wp-pagenavi .current{
 	border-radius: 50%;
 	border: 1px solid #e1ebf4;
 	color: #707781;
+}
+
+.wp-pagenavi a:hover{
+    color: #707781;
+    text-decoration: none;
 }
 
 .wp-pagenavi .first,
@@ -1400,17 +1406,18 @@ h2.large{
 }
 
 .wp-pagenavi .nextpostslink{
-	margin: 0 22px 0 85px;
+	margin: 0 22px 0 60px;
 	width: auto;
 }
 
 .wp-pagenavi .previouspostslink{
 	width: auto;
-	margin: 0 85px 0 22px;
+	margin: 0 60px 0 22px;
 }
 
 .wp-pagenavi .nextpostslink:hover,
 .wp-pagenavi .previouspostslink:hover{
+    text-decoration: none;
 	border-color: transparent;
 	color:#707781;
 }

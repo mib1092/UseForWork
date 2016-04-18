@@ -1498,11 +1498,20 @@ h2.large{
 
 .single .template-description p {
 	margin: 0 0 40px;
+	line-height: 1.5;
 }
+
+
+/*SIMILAR POSTS - SECTION*/
 
 .single .similar-posts{
 	display: block;
 	margin-bottom: 70px;
+}
+
+.single .similar-posts header{
+	border-top: 1px solid #e0ebf4;
+	padding-top: 33px;
 }
 
 .single .similar-posts h2{
@@ -1517,36 +1526,133 @@ h2.large{
 	padding: 0 60px;
 }
 
-.similar-posts .slider .owl-controls{
-	top: 50%;
-	left: 0; 
-
-	-webkit-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	-o-transform: translateY(-50%);
-	transform: translateY(-50%);
-
-	overflow: visible;
+.single .similar-posts .slider li{
+	-webkit-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
 }
 
-.similar-posts .slider .owl-buttons div{
+.similar-posts .slider .slick-arrow{
 	border: none;
 	background-color: transparent;
 	height: 25px;
+	width: 15px;
 }
 
-.similar-posts .slider .owl-theme .owl-next{
+.similar-posts .slider .slick-arrow:before{
+	content: '';
+}
+
+.similar-posts .slider .slick-disabled{
+	opacity: .2;
+}
+
+.similar-posts .slider .slick-next{
 	position: absolute;
 	right: 0;
 	background: url(../img/sim-r.png) center no-repeat;
 }
 
-.similar-posts .slider .owl-theme .owl-prev{
+.similar-posts .slider .slick-prev{
 	position: absolute;
-	left: 0;
+	left: 15px;
 	background: url(../img/sim-l.png) center no-repeat;
 }
 
 .single .templates-list li{
 	margin: 0 40px;
+}
+
+.main-section .container{
+	display: block;
+}
+
+.single .template-description{
+	float: right;
+	width: 500px;
+	padding-left: 40px;
+}
+
+.single .gallery{
+	float: left;
+	width: calc(100% - 500px);	
+}
+
+.single .gallery .slider{
+	display: block;
+	overflow: hidden;
+}
+
+.single .gallery img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.gallery .slider-nav img{
+	padding-right: 18px;
+}
+
+.table{
+	display: table;
+}
+
+.row{
+	display: table-row;
+}
+
+.cell{
+	display: table-cell;
+}
+
+.info-table {
+	color: #394351;
+	margin: 0 0 35px;
+}
+
+.info-table .cell{
+	padding-bottom: 14px;
+}
+
+.info-table .cell-name{
+	position: relative;
+	padding-left: 40px;
+	font:900 18px Lato;
+	padding-right: 17px;
+}
+
+.info-table .cell-name:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	width: 23px;
+	height: 22px;
+	background-image: url(../img/sprite.png);
+}
+
+.info-table .properties{
+	font:18px Lato;
+}
+
+.info-table .category:after{
+	background-position: 0 0;
+} 
+
+.info-table .purpose:after{
+	background-position: 0 -25px;
+}
+
+.info-table .format:after{
+	background-position: 0 -50px;
+}
+
+.info-table .slides:after{
+	background-position: 0 -75px;
+}
+
+.info-table .theme:after{
+	background-position: 0 -99px;
 }

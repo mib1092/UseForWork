@@ -23,11 +23,29 @@ $(document).ready(function() {
       navigation: true  
   });
 
-  $('.similar-posts .templates-list').owlCarousel({
-      loop: true,
-      items:3,
-      navigation: true  ,
-      navContainer: '.similar-posts .slider'
+  $('.similar-posts .templates-list').slick({
+      slidesToShow: 3,
+      speed: 500,
+      slidesToScroll: 3,
+      arrows: true,
+      infinite: false
+  });
+
+   $('.gallery .slider').slick({
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: true,
+      fade: true,
+      infinite: false,
+      asNavFor: '.slider-nav'
+  });
+
+  $('.slider-nav').slick({
+    slidesToShow: 7,
+    slidesToScroll: 3,
+    infinite: false,
+    asNavFor: '.gallery .slider',
+    focusOnSelect: true
   });
 
 });

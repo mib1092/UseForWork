@@ -1231,7 +1231,7 @@ h2.large{
 }
 
 .filter-wrap{
-	width: 48%;
+	width:38%;
 	display: inline-block;
 	vertical-align: middle;
 	text-align: right;
@@ -1246,9 +1246,10 @@ h2.large{
 }
 
 .page-template-page-all_templates .templates h2{
-	width: 50%;
+	width: 60%;
 	display: inline-block;
 	vertical-align: middle;
+	font-size: 35px;
 }
 
 .page-template-page-all_templates .templates header{

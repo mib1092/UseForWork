@@ -195,9 +195,9 @@ img {
 .header,
 .home.page .header,
 .page.page-template-page-all_templates .header,
-.search .header .container,
-.category .header .container,
-.tag .header .container{
+.search .header .header,
+.category .header .header,
+.tag .header .header{
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -907,8 +907,7 @@ img {
 }
 
 .page .header,
-.error404 .header,
-.search .header{
+.error404 .header{
 	position: relative;
     background: #31a3f2;
 }

@@ -650,6 +650,7 @@ img {
 .templates-list h3{
 	margin: 0 0 8px;
 	padding-right: 10px;
+    min-height: 48px;
 }
 
 .templates-list .cat-name{
@@ -1711,7 +1712,7 @@ h2.large{
 
 .single-post .similar-posts h4{
 	margin: 0 0 10px;
-	min-height: 38px;
+    min-height: 40px;
 }
 
 .single-post .similar-posts h4 a{

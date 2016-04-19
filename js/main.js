@@ -80,11 +80,11 @@ $(document).ready(function() {
   });
 
   // testimonial slider
-  $('.testimonial-slider').owlCarousel({
-       loop: true,
-       items:1,
-       navigation: true
-  });
+  // $('.testimonial-slider').owlCarousel({
+  //     loop: true,
+  //     items:1,
+  //     navigation: true  
+  // });
 
   $('.similar-posts .templates-list').slick({
       slidesToShow: 3,

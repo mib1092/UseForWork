@@ -92,6 +92,10 @@
 	    height: 70px;
 	    bottom: -15px;
 	}
+
+	.single-post .template-description header{
+		h
+	}
 }
 
 @media all and (min-width: 1440px) and (max-width: 1580px){
@@ -125,7 +129,7 @@
 		font-size: 25px;
 	}
 
-	.info-block h2{
+	.wrap .info-block h2{
 		font-size: 52px;
 	}
 
@@ -198,7 +202,81 @@
 	.single-post .gallery{
 		width: calc( 100% - 420px);
 	}
+
+	/*Page Inner Template*/
+
+	.sign-up-form + p{
+		font-size: 25px;
+	}
+
+	.sign-up-form .btn{
+		font-size: 14px;
+	}
+
+	.page-template-page-all_templates .templates h2{
+		font-size: 30px;
+	}
+
+	.page-sidebar{
+		width: 234px;
+	}
+
+	.page-sidebar h4 a, .page-sidebar > a{
+		font-size: 14px;
+	}
+
+	.info-block p{
+		font-size: 25px;
+	}
+
+	.wp-pagenavi a, .wp-pagenavi span{
+		font-size: 20px;
+	}
+
+
+	/*Page template sales*/
+
+	.presentation-section header{
+		margin: 0 0 60px;
+	}
+
+	.page h2{
+		font-size: 42px;
+	}
+
+	h2.large{
+		font-size: 52px;
+		margin: 0 0 10px;
+	}
+
+	.page-template-page-sales p{
+		font-size: 21px;
+	}
+
+	.package-included h2+p{
+		font-size: 27px;
+	}
+
+	.package-included li{
+		font-size: 21px;
+		margin-bottom: 50px;
+	}
+
+	.package-included li strong{
+		font-size: 24px;
+	}
+
+	.testimonial-slider .author h3,
+	.testimonial-slider .author h3 + p{
+		font-size: 25px;
+	}
+	
+	.buy-and-get .box{
+		font-size: 21px;
+	}
 }
+
+
 
 @media all and (min-width: 1581px){
 	.container{
@@ -213,6 +291,7 @@
 
 
 @media all and (max-width: 1439px){
+
 	.copy-bar .copy{
 		font-size: 10px;
 	}
@@ -308,11 +387,123 @@
     .wrap .subscribe-section h2{
  		font-size: 40px;
  	}
+
+ 	/*Page template inner*/
+
+ 	.sign-up-form + p{
+ 		font-size: 21px;
+ 	}
+
+ 	.page-template-page-all_templates .templates h2{
+ 		font-size: 28px;
+ 	}
+	
+	.page-sidebar{
+		width: 210px;
+	}
+
+	.page-sidebar h4 a, .page-sidebar > a{
+		font-size: 13px;
+	}
+
+	.page-sidebar .categories ul{
+		padding-left: 30px;
+	}
+
+	.page-sidebar .categories li a{
+		font-size: 13px;
+	}
+
+	.templates-list > li {
+	    width: calc(33.33% - 20px);
+	    margin: 0 0 20px 17px;
+	}
+
+	.templates-list {
+	    margin: 0 0 35px -18px;
+	}
+
+	.templates-list h3 a {
+		font-size: 13px;
+	}
+
+	.page-sidebar h4 a, .page-sidebar > a{
+		padding-left: 30px;
+	}
+
+	.templates-list .info-block .text-wrap {
+	    padding: 50px 65px 50px 65px;
+	}
+
+	.templates-list .info-block .img-wrap{
+		width: 300px;
+	}
+
+	.section-convince .container{
+		height: 315px;
+	}
+
+
+	/*Page template sales*/
+	
+	.presentation-section .img-wrap{
+		width: 400px;
+	}
+
+	.page h2{
+		font-size: 42px;
+	}	
+
+	.page-template-page-sales p{
+		font-size: 20px;
+	}
+
+	.package-included h2+p{
+		font-size: 25px;
+	}
+
+	.package-included li{
+		font-size: 19px;
+	}
+
+	.package-included li strong{
+		font-size: 23px;
+	}
+
+	.content .package-included{
+		padding-bottom: 50px;
+	}
+
+	.testimonial-slider .author h3{
+		margin: 0 0 10px;
+	}
+
+	.testimonial-slider .author h3, .testimonial-slider .author h3 + p{
+		font-size: 22px;
+	}
+
+	.take-mater-section header{
+		width: 75%;
+	}
+
+	.buy-and-get .box{
+		font-size: 20px;
+	}
+
+	.buy-and-get .advantages li{
+		padding-left: 45px;
+		-webkit-background-size: 20px;
+		background-size: 20px;
+	}
+
+	.testimonial-slider .quote {
+	    padding: 40px 40px 25px 40px;
+	}
 }
 
 @media (max-width: 1280px){
 	.main-nav{
-		padding-top: 25px;
+		padding-top: 20px;
 	}
 
 	.banner h1+p, 
@@ -348,5 +539,131 @@
 @media (max-width: 1149px){
 	.container{
 		padding: 0 60px;
+	}
+
+	.section-convince .container:after{
+		right: 45px;
+	}
+
+	.home .banner-text{
+		width: 450px;
+	}
+
+	.blog-block .text-block .ghost-btn {
+	    bottom: 25px;
+	    left: 25px;
+	}
+
+	.blog-block .text-block{
+	    padding: 50px 50px 70px 25px;
+	}
+
+	.subscribe-section header{
+		float: none;
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	.wrap .subscribe-section h2{
+		font-size: 35px;
+	}
+}
+
+
+
+@media (max-width: 960px){
+	.container {
+	    padding: 0 30px;
+	}
+
+	.main-nav{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 200px;
+		height: 110%;
+		background: #31a3f2;
+		padding: 100px 15px 40px;
+		text-align: left;
+		background: #F3F3F3 url(../img/foot-logo.png) no-repeat center top 20px;
+
+		-webkit-background-size: 50px;
+		background-size: 50px;
+
+		-webkit-transition: .85s;
+		-o-transition: .85s;
+		transition: .85s;
+
+		-webkit-transform: translateX(-100%);
+		-ms-transform: translateX(-100%);
+		-o-transform: translateX(-100%);
+		transform: translateX(-100%);
+	}
+
+	.main-nav.active{
+		-webkit-transform: translateX(0);
+		-ms-transform: translateX(0);
+		-o-transform: translateX(0);
+		transform: translateX(0);
+	}
+
+	.burger{
+		display: block;
+	}
+
+	.main-nav li{
+		display: block;
+		margin: 0 0 10px;
+	    border-bottom: 1px solid #dedede;
+    	padding: 0 0 5px;
+	}
+
+	.main-nav li:last-child{
+		border: none;
+	}
+
+	.main-nav a{
+		color: #394351;
+		display: block;
+	}
+
+	.templates-list li {
+	    width: calc(50% - 32px);
+	}
+
+	.templates-list  h3{
+		font-size: 14px;
+	}
+
+	.wrap .section-convince h2{
+		font-size: 32px;
+	}
+
+	.blog-block .text-block {
+		padding-top: 35px;
+	}
+
+	.blog-block .text-block h3{
+		font-size: 14px;
+	}
+
+	.blog-block .text-block .ghost-btn {
+    	bottom: 17px;
+	    font-size: 10px;
+    }
+
+    .blog-block .text-block {
+	    padding-top: 20px;
+	}
+}
+
+
+@media (max-width: 767px){
+	.templates-list h3 {
+	    font-size: 12px;
+	}
+
+	.home .blog-block ul li{
+		width: 50%;
 	}
 }

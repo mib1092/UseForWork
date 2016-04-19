@@ -597,6 +597,7 @@ img {
 .templates-list .description{
 	 display: table-cell;
 	 width: 100%;
+	 padding-right: 10px;
 }
 
 .templates-list h3{
@@ -633,7 +634,7 @@ img {
 
 .info-block h2{
 	width: auto;
-	font: 900 60px Lato;
+	font: 700 60px Lato;
 	margin: 0 0 20px;
 	text-transform: uppercase;
 	color: #fff;
@@ -1604,10 +1605,16 @@ h2.large{
 }
 
 .single-post .template-description{
-	font: 18px Arial;
 	width: 460px;
 	color: #394351;
+	float: right;
+
+	padding: 30px 30px 38px 34px;
+	background: #f9f9f9;
+	border: 2px solid #e8eaee;
+	font: 18px Lato;
 }
+
 
 .single-post .template-description h1{
 	font: 25px Lato;
@@ -1622,6 +1629,7 @@ h2.large{
 .single-post .template-description p {
 	margin: 0 0 40px;
 	line-height: 1.5;
+	font-family: arial;
 }
 
 
@@ -1647,6 +1655,7 @@ h2.large{
 
 .single-post .similar-posts h4{
 	margin: 0 0 10px;
+	min-height: 38px;
 }
 
 .single-post .similar-posts h4 a{
@@ -1707,14 +1716,6 @@ h2.large{
 
 .main-section .container{
 	display: block;
-}
-
-.single-post .template-description{
-	float: right;
-	width: 460px;
-	padding: 30px 30px 38px 34px;
-	background: #f9f9f9;
-	border: 2px solid #e8eaee;
 }
 
 .single-post .template-description h2{
@@ -1782,7 +1783,7 @@ h2.large{
 .info-table .cell-name{
 	position: relative;
 	padding-left: 40px;
-	font:900 18px Lato;
+	font-weight: 900;
 	padding-right: 17px;
 }
 
@@ -1795,10 +1796,6 @@ h2.large{
 	width: 23px;
 	height: 22px;
 	background-image: url(../img/sprite.png);
-}
-
-.info-table .properties{
-	font:18px Lato;
 }
 
 .info-table .category:after{
@@ -1881,7 +1878,7 @@ h2.large{
 
 .single-post .gallery .slick-next{
 	background: url(../img/gallery-r.png) no-repeat center center;
-	right: 35px;
+	right: 20px;
 }
 
 .single-post .gallery .slider:after{

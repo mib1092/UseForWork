@@ -1,6 +1,6 @@
 @media all and (min-width: 1150px) and (max-width:1580px){
 	.container{
-		max-width: 980px;
+		max-width: 1050px;
 	}
 
 	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -27,7 +27,7 @@
 
 @media all and (min-width: 1260px) and (max-width:1580px) {
 	.container{
-		max-width: 1060px;
+		max-width: 1120px;
 	}
 
 	.main-nav a,
@@ -50,11 +50,53 @@
 	.blog-block .text-block .ghost-btn{
 		font-size: 10px;
 	}
+
+	/*single-post*/
+
+	.single-post .template-description {
+		width: 375px;
+		font-size: 15px;
+	}
+
+	.single-post .template-description h1{
+		font-size: 20px;
+	}
+
+
+	.single-post .gallery{
+		width: calc( 100% - 375px);
+	}
+
+	.single-post .template-description .btn{
+		font-size: 19px;
+	}
+
+	.single-post .similar-posts h3{
+		font-size: 28px;
+		-webkit-background-size: 30px;
+		background-size: 30px;
+	}
+
+	.templates-list h4 a{
+		font-size: 14px;
+	}
+
+	.compatible-list .icon{
+		width: 37px;
+		height: 37px;
+		background-repeat: no-repeat;
+	}
+
+	.single-post .gallery .slick-arrow {
+	    width: 70px;
+	    height: 70px;
+	    bottom: -15px;
+	}
 }
 
 @media all and (min-width: 1440px) and (max-width: 1580px){
 	.container{
-		max-width: 1260px;
+		max-width: 1300px;
 	}
 
 	.logo{
@@ -124,8 +166,37 @@
 		min-height: 450px;
 	}
 
-	.wrap .section-convince h2{
-		font-size: 46px;
+
+	/*single-post*/
+
+	.single-post .template-description {
+		width: 420px;
+	}
+
+	.single-post .template-description h1{
+		font-size: 22px;
+	}
+
+	.single-post .template-description{
+		font-size: 16px;
+	}
+
+	.single-post .template-description .btn{
+		font-size: 21px;
+	}
+
+	.single-post .similar-posts h3{
+		font-size: 30px;
+		-webkit-background-size: 34px;
+		background-size: 34px;
+	}
+
+	.templates-list h4 a{
+		font-size: 15px;
+	}
+
+	.single-post .gallery{
+		width: calc( 100% - 420px);
 	}
 }
 

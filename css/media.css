@@ -793,10 +793,26 @@
 	.burger{
 		margin:11px 0 10px 25px;
 	}
+
+	.compatible-list li{
+		width: 50%;
+	}
+
+	.single-post .similar-posts h3{
+		font-size: 26px;
+	}
 }
 
 @media (max-width: 480px){
 	/*Single post*/
+
+	.container{
+		padding: 0 15px;
+	}
+
+	.single-post .template-description h1{
+		font-size: 20px;
+	}
 
 	.single-post .similar-posts .slider ul{
 		padding: 0;

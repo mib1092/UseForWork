@@ -1046,9 +1046,10 @@ h2.large{
 }
 
 .package-included li{
+	display: inline-block;
+	vertical-align: top;
 	font:300 24px 'open sans';
-	width: 45%;
-	float: left;
+	width: 44%;
 	padding: 0 0 0 80px;
 	background: url(../img/marker-in.png) no-repeat top 7px left;
 	min-height: 60px;

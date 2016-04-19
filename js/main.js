@@ -77,11 +77,27 @@ $(document).ready(function() {
      $('.main-nav, .backdrop').removeClass('active');
   });
 
+  // sidebar toggle
+  // function sidebarToggle(){
+  //   if($(window).width < 1150){
+  //     $('.page-sidebar .categories h4').click(function(event) {
+  //        $('.page-sidebar .categories ul').fadeIn(400);
+  //        console.log(11);
+  //     });
+  //   }
+  // }
+
+  // sidebarToggle();
+
+  // $(window).resize(function(){
+  //   sidebarToggle();
+  // });
+
+
   // testimonial slider
   $('.testimonial-slider').owlCarousel({
       loop: true,
       items:1,
-      navigation: true  
   });
 
   $('.similar-posts .templates-list').slick({

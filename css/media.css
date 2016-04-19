@@ -296,7 +296,7 @@
 	.page.page-template-page-all_templates .header, 
 	.search .header, .category .header, 
 	.tag .header, .tax-free_templates .header{
-		height: 100%;
+		height: 100px;
 	}
 
 	.copy-bar .copy{
@@ -449,6 +449,15 @@
 	.section-convince .container{
 		height: 315px;
 	}
+	
+	.wp-pagenavi .previouspostslink {
+	    margin: 0 30px 0 22px;
+	}
+
+	.wp-pagenavi .nextpostslink {
+	    margin: 0 22px 0 30px;
+	}
+	
 
 
 	/*Page template sales*/
@@ -566,6 +575,25 @@
 	    height: 60px;
 	}
 
+	/*Inner page template*/
+	.banner h1{
+		font-size: 40px;
+	}
+
+	.sign-up-form .input-style{
+		padding-top: 17px;
+		padding-bottom: 15px;
+	}
+
+	.sign-up-form .btn {
+	    font-size: 14px;
+	    padding: 21px 45px 17px;
+	}
+
+	.sign-up-form + p {
+	    font-size: 19px;
+	}
+
 }
 
 @media (max-width: 1149px){
@@ -599,6 +627,33 @@
 	.wrap .subscribe-section h2{
 		font-size: 35px;
 	}
+
+
+	/*inner page template*/
+
+	.page-sidebar{
+		float: none;
+		width: 100%;
+		margin: 0 0 40px;
+		padding-left: 0;
+	}
+
+	.page-sidebar h4 a, 
+	.page-sidebar > a, 
+	.categories{
+		display: inline-block;
+		padding-right: 30px;
+		vertical-align: top;
+	}
+
+	.categories ul{
+		display: none;
+	}
+	
+	.page-sidebar h4 a{
+		background: url(../img/down.png) no-repeat top 34px right 3px;
+	}
+	 
 }
 
 @media (max-width: 1149px){
@@ -725,6 +780,12 @@
 	    padding-top: 20px;
 	}
 
+	.wp-pagenavi a, .wp-pagenavi span{
+		font-size: 18px;
+	    width: 40px;
+		height: 40px;
+	}
+
 	/*single post*/
 	.single-post .similar-posts h3{
 		font-size: 31px;
@@ -741,6 +802,20 @@
 		right: -24px;
 	}
 
+	/*iiner page*/
+
+    .templates-list .info-block .img-wrap{
+    	width: 250px;
+    }
+
+    .info-block p{
+    	font-size: 24px;
+    }
+
+    .info-block .btn{
+    	text-align: center;
+    }
+
 }
 
 @media (max-width: 767px){
@@ -750,6 +825,26 @@
 
 	.home .blog-block ul li{
 		width: 50%;
+	}
+
+	.templates-list .info-block .text-wrap {
+	    padding: 35px 20px 20px 20px;
+	}
+
+	.info-block p {
+	    font-size: 18px;
+	}
+
+	.banner h1 {
+	    font-size: 32px;
+	}
+
+	.sign-up-form .input-style {
+ 	   width: 275px;
+	}
+
+	.page-template-page-all_templates .templates h2 {
+	    font-size: 18px;
 	}
 }
 
@@ -807,6 +902,16 @@
 
 	.single-post .similar-posts h3{
 		font-size: 26px;
+	}
+
+	.page-template-page-all_templates .templates h2 {
+	    width: 100%;
+	    margin: 0 0 10px;
+	}
+
+	.filter-wrap{
+		width: 100%;
+		text-align: left;
 	}
 }
 

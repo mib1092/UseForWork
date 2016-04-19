@@ -315,6 +315,27 @@ img {
     bottom: 8px;
 }
 
+.backdrop{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+	background: #000;
+	z-index: 50;
+
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+}
+
+.backdrop.active{
+	display: block;
+	opacity: .4;
+}
+
 /*expanding search*/
 
 .searchbox{

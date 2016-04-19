@@ -74,7 +74,7 @@ $(document).ready(function() {
   });
 
   $('.backdrop').click(function(event) {
-     $('.main-nav, .burger').removeClass('active');
+     $('.main-nav, .backdrop').removeClass('active');
   });
 
   // testimonial slider
@@ -103,7 +103,7 @@ $(document).ready(function() {
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
-            speed: 300
+            speed: 200
           } 
         } ]
   });

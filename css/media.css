@@ -291,6 +291,13 @@
 
 
 @media all and (max-width: 1439px){
+	.header,
+	.home.page .header, 
+	.page.page-template-page-all_templates .header, 
+	.search .header, .category .header, 
+	.tag .header, .tax-free_templates .header{
+		height: 100%;
+	}
 
 	.copy-bar .copy{
 		font-size: 10px;
@@ -887,8 +894,12 @@
 		display: none;
 	}
 
+	.single-post .template-description h1 {
+	    font-size: 18px;
+	}
+
 	.single-post .template-description{
-	    padding: 30px 20px 38px 24px;
+	    padding:27px 15px 38px 15px;
 	}
 }
 

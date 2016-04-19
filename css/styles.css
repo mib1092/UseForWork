@@ -144,9 +144,6 @@ img {
 }
 
 
-
-
-
 .input-style{
 	font: 18px Lato;
 	color: #3e4855;
@@ -272,6 +269,51 @@ img {
     width: 68px;
     height: 68px;
 }
+
+/*burger*/
+
+.burger{
+    position: relative; 
+    float: right;
+    display: none;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    margin: 17px 0 0 40px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.burger span{
+    position: relative;
+    vertical-align: middle;
+}
+
+.burger span,
+.burger span:before,
+.burger span:after{
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 3px;
+    width: 100%;
+    background: #fff;
+}
+
+.burger span:before,
+.burger span:after{
+    position: absolute;
+    left: 0;
+}
+
+.burger span:before{
+    top: 8px;
+}
+
+.burger span:after{
+    bottom: 8px;
+}
+
+/*expanding search*/
 
 .searchbox{
 	float: right;

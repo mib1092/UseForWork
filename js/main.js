@@ -70,21 +70,19 @@ $(document).ready(function() {
   // menu
 
   $('.burger').click(function() {
-  	$('.navbar, .burger').toggleClass('active');
-    $('.backdrop').toggle();
+  	$('.main-nav, .backdrop').toggleClass('active');
   });
 
   $('.backdrop').click(function(event) {
-     $('.navbar, .burger').removeClass('active');
-     $(this).fadeOut();
+     $('.main-nav, .burger').removeClass('active');
   });
 
   // testimonial slider
-  // $('.testimonial-slider').owlCarousel({
-  //     loop: true,
-  //     items:1,
-  //     navigation: true  
-  // });
+  $('.testimonial-slider').owlCarousel({
+      loop: true,
+      items:1,
+      navigation: true  
+  });
 
   $('.similar-posts .templates-list').slick({
       slidesToShow: 3,

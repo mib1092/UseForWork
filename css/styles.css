@@ -1465,7 +1465,7 @@ h2.large{
 .search .templates h2,
 .category .templates h2,
 .tag .templates h2,
-.tax-free-templates h2{
+.tax-free-templates .templates h2{
 	width: 60%;
 	display: inline-block;
 	vertical-align: middle;

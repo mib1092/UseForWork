@@ -435,10 +435,11 @@ img {
 	max-width: 100%;
 }
 
-.home.page h2{
-	font: 28px Lato;
-	display: inline-block;
-	margin: 0 0 35px;
+.home h2.home-h2 {
+    font: 28px Lato;
+    display: inline-block;
+    margin: 0 0 35px;
+    text-transform: none;
 }
 
 .templates h2{

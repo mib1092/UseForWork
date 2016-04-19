@@ -79,9 +79,9 @@ $(document).ready(function() {
 
   // testimonial slider
   $('.testimonial-slider').owlCarousel({
-       loop: true,
-       items:1,
-       navigation: true  
+      loop: true,
+      items:1,
+      navigation: true  
   });
 
   $('.similar-posts .templates-list').slick({
@@ -115,7 +115,14 @@ $(document).ready(function() {
       fade: true,
       infinite: false,
       asNavFor: '.slider-nav',
-      focusOnSelect: true
+      focusOnSelect: true,
+      responsive: [
+        {
+          breakpoint: 380,
+          settings: {
+            arrows:false
+          }
+        }]
   });
 
   $('.slider-nav').slick({
@@ -130,7 +137,7 @@ $(document).ready(function() {
           breakpoint: 767,
           settings: {
             slidesToShow: 3,
-            slidesToScroll: 3
+            slidesToScroll: 2
           }
         }]
   });

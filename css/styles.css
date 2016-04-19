@@ -851,7 +851,8 @@ img {
 	margin: 0 0 55px;
 }
 
-.page .header{
+.page .header,
+.error404 .header {
 	position: relative;
     background: #31a3f2;
 }
@@ -1898,4 +1899,20 @@ h2.large{
 .single-post .gallery .slick-disabled{
 	opacity: .2;
 	cursor: default;
+}
+
+/*--------------------------------------OTHER---------------------------------------*/
+.wrap-404 {
+    text-align: center;
+    padding: 130px 0 100px;
+    color: #31a3f2;
+    font-size: 56px;
+    letter-spacing: 0;
+}
+.wrap-404 .error-404{
+    display: block;
+    margin-bottom: -15px;
+    font-weight: 700;
+    font-size: 180px;
+    line-height: 1;
 }

@@ -91,7 +91,7 @@
 		font-size: 25px;
 	}
 
-	.subscribe-section h2{
+	.wrap .subscribe-section h2{
 		font-size: 43px;
 	}
 
@@ -116,7 +116,7 @@
 	}
 
 	.section-convince .container:after {
-        bottom: -175px;
+        bottom: -131px;
     	right: 84px;
 	}
 
@@ -124,7 +124,7 @@
 		min-height: 450px;
 	}
 
-	.section-convince h2{
+	.wrap .section-convince h2{
 		font-size: 46px;
 	}
 }
@@ -151,6 +151,45 @@
   		padding: 20px 30px;
 	}
 
+	.logo{
+		width: 263px;
+		height: 68px;
+	}
+
+	.main-nav{
+		padding-top: 21px;
+	}
+
+	.main-nav a{
+		font-size: 14px;
+	}
+
+	.searchbox-icon,
+	.searchbox-submit,
+	.search-wrap{
+		width: 56px;
+		height: 56px;
+	}
+
+	.searchbox-input{
+		height: 56px;
+	}
+
+	.searchbox-icon, .searchbox-submit{
+		-webkit-background-size: 20px;
+		background-size: 20px;
+	}
+
+
+	.searchbox{
+		min-width: 56px;
+		width: 100%;
+	}
+
+	.searchbox-open{
+		width: 350px;
+	}
+
 	.banner{
 		height: 500px;
 	}
@@ -173,7 +212,7 @@
 		font-size: 9px;
 	}
 	
-	.section-convince h2{
+	.wrap .section-convince h2{
 		font-size: 46px;
 	}
 
@@ -182,7 +221,7 @@
 	}
 
 	.section-convince .container:after {
-        bottom: -150px;
+        bottom: -115px;
     	right: 25px; 	
     	height: 400px;
     }
@@ -195,7 +234,7 @@
     	font-size: 22px;
     }
 
-    .subscribe-section h2{
+    .wrap .subscribe-section h2{
  		font-size: 40px;
  	}
 }
@@ -209,7 +248,11 @@
 	.home.page h2, 
 	.section-convince p,
 	.blog-block .text-block h3{
-	    font-size: 21px;
+	    font-size: 18px;
+	}
+	
+	.wrap .subscribe-section h2{
+		font-size: 37px;
 	}
 
 	.logo {
@@ -218,12 +261,16 @@
 	}
 	
 	.section-convince .container:after {
-        bottom: -182px;
-   		right: 25px;
+        bottom: -115px;
+    	right: -40px;
 	}
 
-	.section-convince h2{
+	.wrap .section-convince h2{
 		font-size: 38px;
+	}
+
+	.templates-list h3{
+		font-size: 13px;
 	}
 }
 

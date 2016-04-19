@@ -80,11 +80,11 @@ $(document).ready(function() {
   });
 
   // testimonial slider
-  $('.testimonial-slider').owlCarousel({
-      loop: true,
-      items:1,
-      navigation: true  
-  });
+  // $('.testimonial-slider').owlCarousel({
+  //     loop: true,
+  //     items:1,
+  //     navigation: true  
+  // });
 
   $('.similar-posts .templates-list').slick({
       slidesToShow: 3,
@@ -100,7 +100,8 @@ $(document).ready(function() {
       arrows: true,
       fade: true,
       infinite: false,
-      asNavFor: '.slider-nav'
+      asNavFor: '.slider-nav',
+      focusOnSelect: true
   });
 
   $('.slider-nav').slick({
@@ -111,6 +112,11 @@ $(document).ready(function() {
     asNavFor: '.gallery .slider',
     focusOnSelect: true
   });
+
+$('.gallery .slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+  $('.slider-nav .slick-slide').removeClass('slick-current');
+  $($('.slider-nav .slick-slide')[nextSlide]).addClass('slick-current');
+});
 
 });
 

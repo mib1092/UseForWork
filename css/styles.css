@@ -194,7 +194,10 @@ img {
 
 .header,
 .home.page .header,
-.page.page-template-page-all_templates .header{
+.page.page-template-page-all_templates .header,
+.search .header .container,
+.category .header .container,
+.tag .header .container{
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -211,6 +214,9 @@ img {
 }
 
 .page-template-page-all_templates .header .container,
+.search .header .container,
+.category .header .container,
+.tag .header .container,
 .home .header .container{
     border-bottom: 1px solid #5ab5f5;
 }
@@ -232,17 +238,17 @@ img {
 .main-nav{
  	overflow: hidden;
  	text-align: right;
- 	padding: 27px 50px 0 0;
+ 	padding: 27px 50px 2px 0;
  }
 
 .main-nav a{
     text-transform: uppercase;
-    font:400 16px lato;
+    font:400 16px Lato;
     color:#fff;
     -webkit-transition: .34s;
     -o-transition: .34s;
     transition: .34s;
-    padding: 2px 13px;
+    padding: 2px 13px 3px;
 }
 
 .main-nav .current-menu-item a,
@@ -577,7 +583,8 @@ img {
     padding: 0 0 12px 16px;
 }
 
-.template-thumb .tag-list a{
+.template-thumb .tag-list a,
+.template-thumb .tag-list span{
 	font: 10px arial;
 	display: inline-block;
 	background: #fff;
@@ -900,7 +907,8 @@ img {
 }
 
 .page .header,
-.error404 .header {
+.error404 .header,
+.search .header{
 	position: relative;
     background: #31a3f2;
 }
@@ -1366,7 +1374,10 @@ h2.large{
 
 /*TEMPLATES PAGE*/
 
-.page-template-page-all_templates .banner{
+.page-template-page-all_templates .banner,
+.search .banner,
+.category .banner,
+.tag .banner{
 	padding-top: 160px;
 	text-align: center;
 	min-height: 460px;
@@ -1405,7 +1416,10 @@ h2.large{
 	color: #8f9bab;
 }
 
-.page-template-page-all_templates .templates h2{
+.page-template-page-all_templates .templates h2,
+.search .templates h2,
+.category .templates h2,
+.tag .templates h2{
 	width: 60%;
 	display: inline-block;
 	vertical-align: middle;
@@ -1413,7 +1427,10 @@ h2.large{
 	text-transform: none;
 }
 
-.page-template-page-all_templates .templates header{
+.page-template-page-all_templates .templates header,
+.search .templates header,
+.category .templates header,
+.tag .templates header{
 	margin: 0 0 35px;
 }
 
@@ -1874,15 +1891,15 @@ h2.large{
 .compatible-list .icon{
 	display: inline-block;
 	vertical-align: middle;
-	width: 51px;
-	height: 51px;
+	width: 52px;
+	height: 52px;
 	-webkit-background-size: 100%;
 	background-size: 100%;
 	margin-right: 13px;
 }
 
 .keynote{
-	background: url(../img/keynote.jpg);
+	background: url(../img/keynote.png);
 }
 
 .powerpoint{

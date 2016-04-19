@@ -97,15 +97,55 @@ img {
 	background: #ffea00;
 }
 
+
+
+
 .ghost-btn{
+	max-width: 130px;
+	width: 100%;  
 	background-color: transparent;
-	border: 1px solid #fff;
 	color: #fff;
+	text-align: center;
 
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
 }
+
+.ghost-btn svg {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.ghost-btn rect {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2;
+  stroke-dasharray: 450, 0;
+
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.ghost-btn:hover {
+  background: rgba(225, 51, 45, 0);
+}
+
+.ghost-btn:hover rect {
+  stroke-width: 5;
+  stroke-dasharray: 40, 230;
+  stroke-dashoffset: 60;
+  -webkit-transition: all 1.35s cubic-bezier(0.29, 1, 0.22, 1);
+  transition: all 1.35s cubic-bezier(0.29, 1, 0.22, 1);
+}
+
+
+
+
 
 .input-style{
 	font: 18px Lato;

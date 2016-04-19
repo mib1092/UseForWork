@@ -534,6 +534,26 @@
 	.templates-list h3{
 		font-size: 13px;
 	}
+
+	/*Page single post*/
+	.single-post .template-description{
+		width: 410px;
+	}
+
+	.single-post .gallery{
+	    width: calc(100% - 460px);
+	}
+
+	.info-table .cell{
+		font-size: 14px;
+	}
+
+	.single-post .template-description p,
+	.info-table .cell-name {
+		font-size: 16px;
+	}
+
+
 }
 
 @media (max-width: 1149px){

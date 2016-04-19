@@ -1879,10 +1879,11 @@ h2.large{
 	-webkit-background-size: 100%;
 	background-size: 100%;
 	margin-right: 13px;
+	background-repeat: no-repeat;
 }
 
 .keynote{
-	background: url(../img/keynote.jpg);
+	background: url(../img/keynote.png);
 }
 
 .powerpoint{

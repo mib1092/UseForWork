@@ -162,12 +162,14 @@ img {
     background: transparent;
 }
 
-
-.page-template-page-all_templates .header .container,
-.home .header .container{
+.header .container{
 	padding-top: 20px;
 	padding-bottom: 14px;
 	overflow: hidden;
+}
+
+.page-template-page-all_templates .header .container,
+.home .header .container{
     border-bottom: 1px solid #5ab5f5;
 }
 

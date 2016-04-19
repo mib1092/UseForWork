@@ -195,7 +195,7 @@ img {
 .search .header,
 .category .header,
 .tag .header,
-.tax-free-templates .header{
+.tax-free_templates .header{
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -216,7 +216,7 @@ img {
 .category .header .container,
 .tag .header .container,
 .home .header .container,
-.tax-free-templates .header .container{
+.tax-free_templates .header .container{
     border-bottom: 1px solid #5ab5f5;
 }
 
@@ -1422,7 +1422,7 @@ h2.large{
 .search .banner,
 .category .banner,
 .tag .banner,
-.tax-free-templates .banner{
+.tax-free_templates .banner{
 	padding-top: 160px;
 	text-align: center;
 	min-height: 460px;
@@ -1465,7 +1465,7 @@ h2.large{
 .search .templates h2,
 .category .templates h2,
 .tag .templates h2,
-.tax-free-templates .templates h2{
+.tax-free_templates .templates h2{
 	width: 60%;
 	display: inline-block;
 	vertical-align: middle;
@@ -1477,7 +1477,7 @@ h2.large{
 .search .templates header,
 .category .templates header,
 .tag .templates header,
-.tax-free-templates .templates header{
+.tax-free_templates .templates header{
 	margin: 0 0 35px;
 }
 

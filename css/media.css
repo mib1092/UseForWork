@@ -542,6 +542,7 @@
 
 	.single-post .gallery{
 	    width: calc(100% - 460px);
+	    padding-right: 0;
 	}
 
 	.info-table .cell{
@@ -552,7 +553,11 @@
 	.info-table .cell-name {
 		font-size: 16px;
 	}
-
+	
+	.single-post .gallery .slick-arrow {
+	    width: 60px;
+	    height: 60px;
+	}
 
 }
 
@@ -589,6 +594,16 @@
 	}
 }
 
+@media (max-width: 1149px){
+	/*SIngle post*/
+	.single-post .template-description {
+    	width: 100%;
+    }
+
+    .compatible-list li{
+    	width: 33.33%;
+    }
+}
 
 
 @media (max-width: 960px){

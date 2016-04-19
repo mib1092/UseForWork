@@ -656,6 +656,11 @@ img {
 	min-height: 380px;
 }
 
+.section-convince .text-wrap{
+	display: table-cell;
+	vertical-align: middle;
+}
+
 .section-convince .container:after{
 	position: absolute;
     bottom: -132px;

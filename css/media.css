@@ -459,7 +459,7 @@
 	}
 
 	.section-convince .container{
-		height: 315px;
+		min-height: 315px;
 	}
 	
 	.wp-pagenavi .previouspostslink {
@@ -760,10 +760,40 @@
     	padding-right: 60px;
     	text-align: center;
     }
+
+    .take-mater-section .img-wrap{
+    	width: 225px;	
+    }
+
+    .take-mater-section header{
+    	width: 100%;
+    	margin: 0 0 40px;
+    }
+
 }
 
 
 @media (max-width: 960px){
+  
+	.presentation-section .text-section header{
+		margin: 0 0 40px;v
+	}
+
+	.presentation-section .text-section h2{
+		font-size: 32px;
+	}
+
+	.presentation-section .img-wrap{
+		width: 260px;
+	}
+
+	.author-section .author-thumb {
+	    width: 300px;
+	}
+
+    .take-mater-section h2{
+    	font-size: 36px;
+    }
 
 	.container {
 	    padding: 0 30px;
@@ -1198,6 +1228,10 @@
 		width: 100%;
 	}
 
+	.section-convince .container{
+		height: 330px;
+	}
+
 }
 
 @media (max-width: 560px) {
@@ -1268,6 +1302,10 @@
 	.sign-up-form + p {
 	    font-size: 16px;
 	}
+
+	.searchbox-input{
+		padding-left: 20px;
+	}
 }
 
 @media (max-width: 480px) {
@@ -1292,7 +1330,7 @@
 
     /*Single post*/
     .container {
-        padding: 0 15px;
+        padding: 0 20px;
     }
 
     .single-post .template-description h1 {
@@ -1376,7 +1414,7 @@
 	}
 
 	.blog-block .text-block h3{
-		font-size: 16px;
+		font-size: 19px;
 	}
 
 	.section-convince .container:after {
@@ -1386,9 +1424,14 @@
 	    width: 160px;
 	}
 
-	.info-block .btn{
+	.section-convince .btn{
 		font-size: 10px;
 	    padding: 16px 20px;
+	}
+
+	.subscribe-section .btn{
+		width: 100%;
+		font-size: 14px;
 	}
 }
 

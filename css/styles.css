@@ -952,12 +952,14 @@ img {
 
 /*PAGE - SALES*/
 
-.page-template-page-sales p{
+.page-template-page-sales p,
+.page-template-default p{
 	font:300 24px 'open sans';
 	margin: 0 0 35px;
 }
 
-.page-template-page-sales .banner{
+.page-template-page-sales .banner,
+.page-template-default .banner {
 	background: url(../img/sales-bg.jpg) center center;
 
 	-webkit-background-size: cover;
@@ -966,6 +968,11 @@ img {
 
 	height: 560px;
 	margin: 0 0 58px;
+}
+
+.page-template-default .banner {
+    height: auto;
+    padding-bottom: 90px;
 }
 
 .banner h1{
@@ -2046,4 +2053,89 @@ h2.large{
     font-weight: 700;
     font-size: 180px;
     line-height: 1;
+}
+
+.content-box {
+    padding-bottom: 30px;
+    font-size: 24px;
+}
+.singular p,
+.content-box p{
+    font: 300 1em 'Open Sans';
+    margin: 0 0 1.5em;
+}
+.singular h1, .content-box h1,
+.singular h2, .content-box h2,
+.singular h3, .content-box h3,
+.singular h4, .content-box h4,
+.singular h5, .content-box h5,
+.singular h6, .content-box h6 {
+    font-weight: 900;
+    font-family: Lato;
+    text-transform: uppercase;
+    margin: 0 0 35px;
+}
+.singular h1,
+.content-box h1 {
+    font-size: 2.5em;
+}
+.singular h2,
+.content-box h2 {
+    font-size: 2em;
+}
+.singular h3,
+.content-box h3 {
+    font-size: 1.7em;
+}
+.singular h4,
+.content-box h4 {
+    font-size: 1.4em;
+}
+.singular h5,
+.content-box h5 {
+    font-size: 1.25em;
+}
+.singular h6,
+.content-box h6 {
+    font-size: 1.1em;
+}
+.singular blockquote,
+.content-box blockquote {
+    margin: 0 1.5em 1.5em;
+}
+.singular a,
+.content-box a {
+    font-weight: 300;
+    text-decoration: none;
+    color: #35a6f2;
+}
+.singular a:hover,
+.content-box a:hover {
+    text-decoration: underline;
+}
+.singular em,
+.content-box em,
+.singular span[style='text-decoration: underline;'],
+.content-box span[style='text-decoration: underline;'] {
+    font-weight: 300;
+}
+.singular strong,
+.content-box strong {
+    font-weight: 600;
+}
+.singular img.alignleft,
+.content-box img.alignleft {
+    float: left;
+    margin: 0.5em 1em 1em 0;
+}
+.singular img.alignright,
+.content-box img.alignright {
+    float: right;
+    margin: 0.5em 0 1em 1em;
+}
+.singular img.aligncenter,
+.content-box img.aligncenter {
+    display: block;
+    margin: 0 auto 1em;
+    clear: both;
 }

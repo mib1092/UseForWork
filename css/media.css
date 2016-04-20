@@ -94,7 +94,7 @@
 	}
 
 	.single-post .template-description header{
-		h
+
 	}
 }
 
@@ -213,7 +213,11 @@
 		font-size: 14px;
 	}
 
-	.page-template-page-all_templates .templates h2{
+	.page-template-page-all_templates .templates h2,
+    .search .templates h2,
+    .category .templates h2,
+    .tag .templates h2,
+    .tax-free_templates .templates h2{
 		font-size: 30px;
 	}
 
@@ -249,7 +253,8 @@
 		margin: 0 0 10px;
 	}
 
-	.page-template-page-sales p{
+	.page-template-page-sales p,
+    .page-template-default p{
 		font-size: 21px;
 	}
 
@@ -401,7 +406,11 @@
  		font-size: 21px;
  	}
 
- 	.page-template-page-all_templates .templates h2{
+    .page-template-page-all_templates .templates h2,
+    .search .templates h2,
+    .category .templates h2,
+    .tag .templates h2,
+    .tax-free_templates .templates h2{
  		font-size: 28px;
  	}
 	
@@ -470,7 +479,8 @@
 		font-size: 42px;
 	}	
 
-	.page-template-page-sales p{
+	.page-template-page-sales p,
+    .page-template-default p{
 		font-size: 20px;
 	}
 
@@ -594,6 +604,17 @@
 	    font-size: 19px;
 	}
 
+    .content-box {
+        font-size: 22px;
+    }
+    .singular h1, .content-box h1,
+    .singular h2, .content-box h2,
+    .singular h3, .content-box h3,
+    .singular h4, .content-box h4,
+    .singular h5, .content-box h5,
+    .singular h6, .content-box h6 {
+        margin-bottom: 32px;
+    }
 }
 
 @media (max-width: 1149px){
@@ -818,7 +839,7 @@
 
 }
 
-@media (max-width: 767px){
+@media (max-width: 768px){
 	.templates-list h3 {
 	    font-size: 12px;
 	}
@@ -843,9 +864,25 @@
  	   width: 275px;
 	}
 
-	.page-template-page-all_templates .templates h2 {
+    .page-template-page-all_templates .templates h2,
+    .search .templates h2,
+    .category .templates h2,
+    .tag .templates h2,
+    .tax-free_templates .templates h2 {
 	    font-size: 18px;
 	}
+
+    .content-box {
+        font-size: 18px;
+    }
+    .singular h1, .content-box h1,
+    .singular h2, .content-box h2,
+    .singular h3, .content-box h3,
+    .singular h4, .content-box h4,
+    .singular h5, .content-box h5,
+    .singular h6, .content-box h6 {
+        margin-bottom: 25px;
+    }
 }
 
 @media (max-width: 640px){
@@ -904,7 +941,11 @@
 		font-size: 26px;
 	}
 
-	.page-template-page-all_templates .templates h2 {
+    .page-template-page-all_templates .templates h2,
+    .search .templates h2,
+    .category .templates h2,
+    .tag .templates h2,
+    .tax-free_templates .templates h2 {
 	    width: 100%;
 	    margin: 0 0 10px;
 	}
@@ -915,46 +956,58 @@
 	}
 }
 
-@media (max-width: 480px){
-	/*Single post*/
+@media (max-width: 480px) {
+    /*Single post*/
+    .container {
+        padding: 0 15px;
+    }
 
-	.container{
-		padding: 0 15px;
-	}
+    .single-post .template-description h1 {
+        font-size: 20px;
+    }
 
-	.single-post .template-description h1{
-		font-size: 20px;
-	}
+    .single-post .similar-posts .slider ul {
+        padding: 0;
+        margin: 0;
+    }
 
-	.single-post .similar-posts .slider ul{
-		padding: 0;
-		margin: 0;
-	}
+    .single-post .similar-posts .slider li {
+        margin: 0 10px;
+    }
 
-	.single-post .similar-posts .slider li{
-		margin: 0 10px;
-	}
+    .similar-posts .slider .slick-arrow {
+        visibility: hidden;
+    }
 
-	.similar-posts .slider .slick-arrow{
-		visibility: hidden;
-	}
+    .logo {
+        width: 50px;
+    }
 
-	.logo {
-		width: 50px;
-	}
+    .logo img {
+        width: auto;
+        height: 100%;
+    }
 
-	.logo img{
-		width: auto;
-		height: 100%;
-	}
+    .searchbox-open {
+        width: 240px;
+    }
 
-	.searchbox-open{
-		width: 240px;
-	}
+    .compatible-list {
+        text-align: center;
+    }
 
-	.compatible-list {
-		text-align: center;
-	}
+    .content-box {
+        font-size: 16px;
+    }
+    .singular h1, .content-box h1,
+    .singular h2, .content-box h2,
+    .singular h3, .content-box h3,
+    .singular h4, .content-box h4,
+    .singular h5, .content-box h5,
+    .singular h6, .content-box h6 {
+        margin-bottom: 22px;
+    }
+}
 
 @media (max-width: 480px){
 	.compatible-list .icon{

@@ -71,7 +71,7 @@
 		font-size: 19px;
 	}
 
-	.single-post .similar-posts h3{
+	.single-post .similar-posts h3.title{
 		font-size: 28px;
 		-webkit-background-size: 30px;
 		background-size: 30px;
@@ -189,7 +189,7 @@
 		font-size: 21px;
 	}
 
-	.single-post .similar-posts h3{
+	.single-post .similar-posts h3.title{
 		font-size: 30px;
 		-webkit-background-size: 34px;
 		background-size: 34px;
@@ -808,7 +808,7 @@
 	}
 
 	/*single post*/
-	.single-post .similar-posts h3{
+	.single-post .similar-posts h3.title{
 		font-size: 31px;
 		padding-left: 55px;
 		-webkit-background-size: 25px;
@@ -941,7 +941,7 @@
 		width: 50%;
 	}
 
-	.single-post .similar-posts h3{
+	.single-post .similar-posts h3.title{
 		font-size: 26px;
 	}
 
@@ -1032,7 +1032,7 @@
 		font-size: 16px;
 	}
 
-	.single-post .similar-posts h3{
+	.single-post .similar-posts h3.title{
 		-webkit-background-size: 17px;
 		background-size: 17px;
 		background-position: left 15px top 11px;

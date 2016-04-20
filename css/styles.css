@@ -1782,7 +1782,7 @@ h2.large{
 	padding-top: 33px;
 }
 
-.single-post .similar-posts h3{
+.single-post .similar-posts h3.title{
 	font: 35px Lato;
 	color: #394351;
 	margin: 0 0 46px;
@@ -1790,14 +1790,14 @@ h2.large{
 	background: url(../img/similar.png) left center no-repeat;
 }
 
-.single-post .similar-posts h3,
-.single-post .similar-posts h4{
+.single-post .similar-posts .slider h3,
+.single-post .similar-posts .slider h4{
 	margin: 0 0 10px;
 	min-height: 40px;
 }
 
-.single-post .similar-posts h3 a,
-.single-post .similar-posts h4 a{
+.single-post .similar-posts .slider h3 a,
+.single-post .similar-posts .slider h4 a{
 	line-height: 1.25;
 }
 

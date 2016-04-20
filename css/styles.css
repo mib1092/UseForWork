@@ -953,13 +953,13 @@ img {
 /*PAGE - SALES*/
 
 .page-template-page-sales p,
-.page-template-default p{
+.page-template-default:not(.home) p{
 	font:300 24px 'open sans';
 	margin: 0 0 35px;
 }
 
 .page-template-page-sales .banner,
-.page-template-default .banner {
+.page-template-default:not(.home) .banner {
 	background: url(../img/sales-bg.jpg) center center;
 
 	-webkit-background-size: cover;
@@ -970,7 +970,7 @@ img {
 	margin: 0 0 58px;
 }
 
-.page-template-default .banner {
+.page-template-default:not(.home) .banner {
     height: auto;
     padding-bottom: 90px;
 }
@@ -1689,6 +1689,10 @@ h2.large{
 	margin: 0 0 40px;
 }
 
+.content > .container:first-child > .bread-crumbs{
+    margin-top: 30px;
+}
+
 .bread-crumbs:before{
 	content: '';
 	position: absolute;
@@ -1786,11 +1790,13 @@ h2.large{
 	background: url(../img/similar.png) left center no-repeat;
 }
 
+.single-post .similar-posts h3,
 .single-post .similar-posts h4{
 	margin: 0 0 10px;
 	min-height: 40px;
 }
 
+.single-post .similar-posts h3 a,
 .single-post .similar-posts h4 a{
 	line-height: 1.25;
 }

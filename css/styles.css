@@ -796,12 +796,12 @@ img {
 	margin: 0 0 30px;
 }
 
-.home .blog-block ul{
+.blog-block ul{
 	overflow: hidden;
 	margin-right: -30px;
 }
 
-.home .blog-block ul li{
+.blog-block ul li{
 	position: relative;
 	width: 33.33%;
 	float: left;
@@ -809,14 +809,14 @@ img {
 	margin: 0 0 30px;
 }
 
-.home .blog-block img{
+.blog-block img{
 	display: block;
 	width: 100%;
 	height: auto;
 }
 
-.home .blog-block ul li:after,
-.home .blog-block ul li:before{
+.blog-block ul li:after,
+.blog-block ul li:before{
 	content:'';
 	position: absolute;
 	bottom: 0;

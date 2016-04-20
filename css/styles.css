@@ -796,6 +796,10 @@ img {
 	margin: 0 0 30px;
 }
 
+.page-template-page-blog .blog-block{
+    padding-bottom: 30px;
+}
+
 .blog-block ul{
 	overflow: hidden;
 	margin-right: -30px;

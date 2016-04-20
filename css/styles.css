@@ -1600,11 +1600,12 @@ h2.large{
 
 .templates-list .info-block{
 	display: table;
-	width: calc(100% - 32px);
+	width: 100%;
 	float: none;
 	background: #2b9ae8;
 	min-height: 360px;
 	padding-bottom: 0;	
+	margin-left: 0;
 }
 
 .templates-list .info-block p{

@@ -279,6 +279,10 @@
 	.buy-and-get .box{
 		font-size: 21px;
 	}
+
+	.templates-list .info-block .img-wrap{
+		width: 322px;
+	}
 }
 
 
@@ -291,7 +295,6 @@
 	.templates-list h3 a{
 		font-size: 16px;
 	}
-
 }
 
 
@@ -436,7 +439,7 @@
 	}
 
 	.templates-list {
-	    margin: 0 0 35px -18px;
+	    margin: 0 0 35px -15px;
 	}
 
 	.templates-list h3 a {
@@ -524,6 +527,10 @@
 
 	.testimonial-slider .quote {
 	    padding: 40px 40px 25px 40px;
+	}
+
+	.templates-list .info-block .img-wrap {
+	    width: 283px;
 	}
 }
 
@@ -673,6 +680,10 @@
 	
 	.page-sidebar h4 a{
 		background: url(../img/down.png) no-repeat top 34px right 3px;
+	}
+
+	.templates-list .info-block .img-wrap {
+	    width: 333px;
 	}
 	 
 }
@@ -883,8 +894,11 @@
 	 	margin: 0 0 10px;
 	 	overflow: hidden;
 	}
-
-
+	
+	.templates-list .info-block {
+	    display: table;
+	    width: 96%;
+	}
 }
 
 @media (max-width: 840px){
@@ -932,7 +946,15 @@
 	}
 
 	.templates-list .info-block .text-wrap {
-	    padding: 35px 20px 20px 20px;
+	    padding: 35px 20px 20px 40px;
+	    display: block;
+	    font-size: 20px;
+	    text-align: center;
+	    margin: 0 0 20px;
+	}
+
+	.templates-list .info-block p{
+		font-size: 20px;
 	}
 
 	.info-block p {
@@ -988,10 +1010,26 @@
 		z-index: 10;
 	}
 	
-	.info-block p {
-	    font-size: 16px;
+	.page-sidebar{
+		margin: 0;
 	}
 
+
+	.sign-up-form .input-style::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	  font-size: 16px;
+	}
+
+	.sign-up-form .input-style::-moz-placeholder { /* Firefox 19+ */
+	  font-size: 16px;
+	}
+
+	.sign-up-form .input-style:-ms-input-placeholder { /* IE 10+ */
+	  font-size: 16px;
+	}
+
+	.sign-up-form .input-style:-moz-placeholder { /* Firefox 18- */
+	  font-size: 16px;
+	}
 }
 
 @media (max-width: 640px){
@@ -1061,12 +1099,22 @@
    	    width: 186px;
 	}
 
+	.templates-list .info-block .img-wrap{
+		display: block;
+		width: 100%;
+	}
+
 }
 
 @media (max-width: 560px) {
 	.templates-list li {
 	    width: 100%;
+	    margin-left: 0;
 	}
+
+	.templates-list .info-block{
+		width: 100%;
+	}	
 
 	.templates-list h3 a {
 	    font-size: 16px;
@@ -1111,9 +1159,43 @@
 		margin: 0 auto 30px;
 		width: 80%;
 	}
+
+	.sign-up-form li{
+		margin: 0;
+	}
+
+	.sign-up-form .btn {
+	    font-size: 14px;
+	    padding: 21px 45px 17px;
+	    width: 275px;
+	    margin: 17px 0 0;
+	}
+
+	.sign-up-form + p {
+	    font-size: 16px;
+	}
 }
 
 @media (max-width: 480px) {
+	.banner h1 {
+	    font-size: 24px;
+	}
+
+	.bread-crumbs li{
+		font-size: 14px;
+	}
+
+	.page-sidebar h4 a, .page-sidebar > a{
+		border: none;
+		padding: 5px 30px 15px 5px;	 
+		font-size: 12px;
+	}
+
+	.page-sidebar h4 a {
+	    background: url(../img/down.png) no-repeat top 10px right 3px;
+	}
+
+
     /*Single post*/
     .container {
         padding: 0 15px;
@@ -1242,6 +1324,10 @@
 
 	.banner .btn-gold:before{
 		display: none;
+	}
+
+	.templates-list h3 a {
+	    font-size: 14px;
 	}
 
 }

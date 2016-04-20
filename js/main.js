@@ -95,8 +95,8 @@ $(document).ready(function() {
 
   // testimonial slider
   $('.testimonial-slider').owlCarousel({
-      loop: true,
-      items:1,
+      loop: false,
+      items:1
   });
 
   $('.similar-posts .templates-list').slick({

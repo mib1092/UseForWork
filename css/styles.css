@@ -1133,7 +1133,7 @@ h2.large{
 .author-section section{
 	display: table-cell;
 	vertical-align: middle;
-	padding:40px 0 0 80px;
+    padding: 40px 40px 0 80px;
 }
 
 .author-section section p {

@@ -622,6 +622,34 @@
     .content-box h6 {
         margin-bottom: 32px;
     }
+
+
+    .page-template-page-sales .banner, .page-template-default:not(.home) .banner{
+    	height: auto;
+    	min-height: 420px;
+    }
+
+    .page-template-page-sales p, .page-template-default:not(.home) p{
+    	font-size: 18px;
+    }
+
+    .package-included h2{
+    	margin: 0 0 10px;
+    }
+
+    .package-included h2+p {
+	    font-size: 22px;
+	}
+
+	.package-included li{
+		-webkit-background-size: 35px;
+		background-size: 35px;
+		font-size: 18px;
+	}
+
+	.author-section .author-thumb{
+		width: 425px;
+	}
 }
 
 @media (max-width: 1149px){
@@ -669,7 +697,10 @@
 	.wrap .subscribe-section h2{
 		font-size: 35px;
 	}
-
+	
+	.author-section h2{
+		font-size: 34px;
+	}
 
 	/*inner page template*/
 
@@ -694,7 +725,7 @@
 	}
 
 	.templates-list .info-block .img-wrap {
-	    width: 333px;
+	    width: 350px;
 	}
 	 
 }
@@ -722,6 +753,12 @@
 
     .single-post .templates-list li{
     	margin: 0 15px;
+    }
+
+    .for-you-section .container{
+    	padding-left: 60px;
+    	padding-right: 60px;
+    	text-align: center;
     }
 }
 
@@ -912,6 +949,18 @@
 	    display: table;
 	    width: 96%;
 	}
+
+	.package-included li{
+		margin-bottom: 35px;
+	}
+
+	.author-section h2 {
+	    font-size: 29px;
+	}
+
+	.page-template-page-sales p, .page-template-default:not(.home) p{
+		font-size: 17px;
+	}
 }
 
 @media (max-width: 840px){
@@ -941,6 +990,29 @@
 	.subscribe-section form .btn[type="submit"]{
 	    padding: 20px 30px;
 	    font-size: 16px;
+	}
+
+	.buy-and-get header {
+	    max-width: 95%;
+	    margin: 0 auto 25px;
+	}
+
+	.buy-and-get h2{
+		font-size: 34px;
+	}
+
+	.buy-and-get .img-wrap, .buy-and-get .text-wrap{
+		display: block;
+	}
+
+	.buy-and-get .img-wrap{
+		text-align: center;
+		margin: 0 0 25px;
+	}
+
+
+	.buy-and-get .img-wrap img {
+	    max-height: 220px;
 	}
 }
 
@@ -1042,6 +1114,15 @@
 
 	.sign-up-form .input-style:-moz-placeholder { /* Firefox 18- */
 	  font-size: 16px;
+	}
+
+	.exclusive-offer h2{
+		font-size: 36px;
+	}
+	.exclusive-offer .btn-orange{
+		max-width: 340px;
+		width: 100%;
+		font-size: 22px;
 	}
 }
 

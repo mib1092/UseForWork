@@ -705,8 +705,42 @@
 
 
 @media (max-width: 960px){
+
 	.container {
 	    padding: 0 30px;
+	}
+
+	.home .banner-text{
+		padding: 40px 0 0;
+		width: 100%;
+		text-align: center;
+		display: block;
+		margin: 0 0 30px;
+	}
+
+	.banner{
+		height: auto;
+		min-height: 500px;
+	}
+
+	.banner h1 {
+	    font-size: 34px;
+	}
+
+	.banner h1 +p{
+		margin: 0 0 20px;
+	}
+
+	.home .banner .img-wrap{
+		display: block;	
+		width: 50%;
+		margin: 0 auto 30px;
+	}
+	
+	 
+
+	.banner .btns-list .btn{
+		font-size: 10px;
 	}
 
 	.main-nav{
@@ -837,15 +871,64 @@
     	text-align: center;
     }
 
+    .templates h2{
+    	margin: 0 0 10px;
+    }
+	
+	.home h2 + .view-more{
+		padding-top: 0;
+	}
+
+	.templates header{
+	 	margin: 0 0 10px;
+	 	overflow: hidden;
+	}
+
+
+}
+
+@media (max-width: 840px){
+	.customers ul{
+		padding: 0 10px;	
+	}
+
+	.customers li:first-of-type{
+		display: table-caption;
+		width: 100%;
+		padding: 0 0 20px;
+	}
+
+	.customers li:first-of-type p{
+		text-align: center;
+		font-size: 17px;
+	}
+
+	.subscribe-section header{
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin: 0 0 40px;
+	}
+
+	.input-style,
+	.subscribe-section form .btn[type="submit"]{
+	    padding: 20px 30px;
+	    font-size: 16px;
+	}
 }
 
 @media (max-width: 768px){
+	.customers img{
+		max-height: 40px;
+	}
+
 	.templates-list h3 {
 	    font-size: 12px;
 	}
 
 	.blog-block ul li{
-		width: 50%;
+		width: calc(50% - 30px);
+		padding-top: 34%;
 	}
 
 	.templates-list .info-block .text-wrap {
@@ -887,6 +970,10 @@
     .page-template-default:not(.home) .banner {
         padding-bottom: 80px;
     }
+
+    .templates-list h3 a {
+	    font-size: 12px;
+	}
 }
 
 @media (max-width: 640px){
@@ -958,6 +1045,37 @@
 		width: 100%;
 		text-align: left;
 	}
+
+}
+
+@media (max-width: 560px) {
+	.templates-list li {
+	    width: 100%;
+	}
+
+	.templates-list h3 a {
+	    font-size: 16px;
+	}
+
+	.home .templates h2{
+		width: 100%;
+		margin: 0 0 15px;
+	}
+
+	.banner h1+p, 
+	.home.page h2, 
+	.section-convince p, 
+	.blog-block .text-block h3{
+		font-size: 22px;
+	}
+
+	.home h2 + .view-more{
+		font-size: 14px;
+		float: none;
+		margin: 0 0 15px;
+	}
+
+
 }
 
 @media (max-width: 480px) {
@@ -1011,9 +1129,7 @@
     .content-box h6 {
         margin-bottom: 22px;
     }
-}
-
-@media (max-width: 480px){
+ 
 	.compatible-list .icon{
 		display: block;
 		margin: 0 auto 10px;
@@ -1046,7 +1162,7 @@
 	.home.page h2, 
 	.section-convince p, 
 	.blog-block .text-block h3{
-		font-size: 16px;
+		font-size: 22px;
 	}
 }
 

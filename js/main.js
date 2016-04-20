@@ -94,6 +94,7 @@ $(document).ready(function() {
   // });
 
 
+
   // testimonial slider
   $('.testimonial-slider').owlCarousel({
       loop: true,

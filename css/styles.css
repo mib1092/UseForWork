@@ -797,7 +797,7 @@ img {
 }
 
 .page-template-page-blog .blog-block{
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 .blog-block ul{
@@ -1510,7 +1510,8 @@ h2.large{
 .search .templates header,
 .category .templates header,
 .tag .templates header,
-.tax-free_templates .templates header{
+.tax-free_templates .templates header,
+.page-template-page-blog .blog-block header{
 	margin: 0 0 35px;
 }
 

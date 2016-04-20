@@ -625,6 +625,20 @@
 }
 
 @media (max-width: 1149px){
+	.page-sidebar .categories{
+		padding-right: 0;
+	}
+
+	.page-sidebar .categories ul{
+		position: absolute;
+		top:100%;
+		left: 0;
+		display: none;
+		width: 150px;
+		background: #fff;
+	    z-index: 1000;
+	}
+
 	.container{
 		padding: 0 60px;
 	}
@@ -669,13 +683,10 @@
 	.page-sidebar h4 a, 
 	.page-sidebar > a, 
 	.categories{
+		position: relative;
 		display: inline-block;
 		padding-right: 30px;
 		vertical-align: top;
-	}
-
-	.categories ul{
-		display: none;
 	}
 	
 	.page-sidebar h4 a{

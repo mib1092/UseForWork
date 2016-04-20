@@ -78,20 +78,18 @@ $(document).ready(function() {
   });
 
   // sidebar toggle
-  // function sidebarToggle(){
-  //   if($(window).width < 1150){
-  //     $('.page-sidebar .categories h4').click(function(event) {
-  //        $('.page-sidebar .categories ul').fadeIn(400);
-  //        console.log(11);
-  //     });
-  //   }
-  // }
+  function sidebarToggle(){
+    if($(window).width() < 1150){
+      $('.page-sidebar .categories h4').click(function(event) {
+         $('.page-sidebar .categories ul').toggle(400);
+         console.log(11);
+      });
+    }
+  }
 
-  // sidebarToggle();
+  sidebarToggle();
 
-  // $(window).resize(function(){
-  //   sidebarToggle();
-  // });
+ 
 
 
 

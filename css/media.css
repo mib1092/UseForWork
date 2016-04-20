@@ -797,16 +797,18 @@
 	}
 
 	.main-nav .current-menu-item a,
-	 .main-nav .current_page_item a, 
+	.main-nav .current_page_item a,
 	.main-nav .current-menu-parent a, 
-	.main-nav .current-menu-ancestor a, 
+	.main-nav .current-menu-ancestor a,
 	.main-nav .current-page-ancestor a, 
 	.single-post .main-nav .menu-item-29 a, 
 	.category .main-nav .menu-item-29 a,
-	 .main-nav a:hover{
+    .tag .main-nav .menu-item-29 a,
+    .single-article .main-nav .menu-item-27 a,
+	.main-nav a:hover{
 	 	background-color: transparent;
 	 	color: #31a3f2;
-	 }
+	}
 
 	.main-nav li:last-child{
 		border: none;

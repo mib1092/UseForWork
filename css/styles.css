@@ -257,6 +257,8 @@ img {
 .main-nav .current-page-ancestor a,
 .single-post .main-nav .menu-item-29 a,
 .category .main-nav .menu-item-29 a,
+.tag .main-nav .menu-item-29 a,
+.single-article .main-nav .menu-item-27 a,
 .main-nav a:hover{
 	background: #fff;
 	color: #3b3f4b;
@@ -702,8 +704,17 @@ img {
 	bottom: 0;
 	border: none;
 	background-color: transparent;
-	font-size: 26px;
+	font-size: 20px;
     line-height: 17px;
+    color: #75848E;
+}
+.like-btn .fa-heart,
+.like-btn.save .fa-heart-o {
+    display: none;
+}
+.like-btn.save .fa-heart {
+    display: inline;
+    color: #2B9AE8;
 }
 
 .templates-list .description{
@@ -993,6 +1004,7 @@ img {
 }
 
 .page .header,
+.single-article .header,
 .error404 .header {
 	position: relative;
     background: #31a3f2;
